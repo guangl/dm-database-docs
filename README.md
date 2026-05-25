@@ -1,29 +1,19 @@
-# Rspress website
+# 达梦数据库文档站
 
-## Setup
+本站是达梦数据库（DM Database）的中文参考文档站，帮助开发者快速查阅各版本的官方技术文档。内容覆盖安装指南、SQL 参考、管理手册等核心主题，持续更新维护。
 
-Install the dependencies:
+## 本地开发
 
-```bash
-npm install
-```
+开发前请先安装 [Bun](https://bun.sh)，然后执行以下步骤：
 
-## Get started
+1. 安装依赖：
 
-Start the dev server:
+   ```bash
+   bun install
+   ```
 
-```bash
-npm run dev
-```
+2. 启动开发服务器：
 
-Build the website for production:
-
-```bash
-npm run build
-```
-
-Preview the production build locally:
-
-```bash
-npm run preview
-```
+   ```bash
+   bun run dev
+   ```
