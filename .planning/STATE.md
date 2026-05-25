@@ -1,17 +1,17 @@
 ---
 gsd_state_version: 1.0
 milestone: v0.1.0
-milestone_name: 项目脚手架
+milestone_name: milestone
 status: planning
-stopped_at: Phase 1 & 2 context gathered
-last_updated: "2026-05-25T05:44:03.557Z"
-last_activity: 2026-05-25 — Roadmap created for milestone v0.1.0
+stopped_at: Phase 3 context gathered
+last_updated: "2026-05-25T11:00:10.088Z"
+last_activity: 2026-05-25
 progress:
   total_phases: 3
-  completed_phases: 0
-  total_plans: 0
-  completed_plans: 0
-  percent: 0
+  completed_phases: 2
+  total_plans: 2
+  completed_plans: 2
+  percent: 67
 ---
 
 # Project State
@@ -21,14 +21,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-05-25)
 
 **Core value:** 开发者能快速找到对应版本的达梦数据库权威参考文档
-**Current focus:** Phase 1 - 项目基础文件
+**Current focus:** Phase 3 — 多版本文档框架
 
 ## Current Position
 
-Phase: 1 of 3 (项目基础文件)
-Plan: 0 of TBD in current phase
+Phase: 3
+Plan: Not started
 Status: Ready to plan
-Last activity: 2026-05-25 — Roadmap created for milestone v0.1.0
+Last activity: 2026-05-25
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -36,7 +36,7 @@ Progress: [░░░░░░░░░░] 0%
 
 **Velocity:**
 
-- Total plans completed: 0
+- Total plans completed: 1
 - Average duration: -
 - Total execution time: 0 hours
 
@@ -44,7 +44,7 @@ Progress: [░░░░░░░░░░] 0%
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| - | - | - | - |
+| 02 | 1 | - | - |
 
 **Recent Trend:**
 
@@ -60,8 +60,9 @@ Progress: [░░░░░░░░░░] 0%
 Decisions are logged in PROJECT.md Key Decisions table.
 Recent decisions affecting current work:
 
+- Phase 2: 使用 GitHub 官方 Pages Actions（OIDC 鉴权），非 peaceiris
+- Phase 2: rspress base 设为 '/dm-database-docs/'（末尾斜杠）
 - Milestone v0.1.0: 使用 Rspress multiVersion 插件实现版本切换（原生支持，无需自研）
-- Milestone v0.1.0: 部署目标为 GitHub Pages 静态站点
 
 ### Pending Todos
 
@@ -79,6 +80,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-25T05:44:03.548Z
-Stopped at: Phase 1 & 2 context gathered
-Resume file: .planning/phases/02-ci-cd/02-CONTEXT.md
+Last session: 2026-05-25T11:00:10.084Z
+Stopped at: Phase 3 context gathered
+Resume file: .planning/phases/03-multiversion/03-CONTEXT.md
