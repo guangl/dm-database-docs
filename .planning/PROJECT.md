@@ -23,16 +23,13 @@
 
 ### Validated
 
-<!-- Shipped and confirmed valuable. -->
-
-(None yet — ship to validate)
+- ✓ INFRA-01: 项目包含 LICENSE 文件 — Phase 1
+- ✓ INFRA-02: README.md 包含达梦文档站的真实介绍（替换 Rspress 模板）— Phase 1
+- ✓ INFRA-03: GitHub Actions 在推送主分支时自动构建文档站 — Phase 2
+- ✓ INFRA-04: GitHub Actions 构建成功后自动部署到 GitHub Pages — Phase 2
 
 ### Active
 
-- [ ] INFRA-01: 项目包含 LICENSE 文件
-- [ ] INFRA-02: README.md 包含达梦文档站的真实介绍（替换 Rspress 模板）
-- [ ] INFRA-03: GitHub Actions 在推送主分支时自动构建文档站
-- [ ] INFRA-04: GitHub Actions 构建成功后自动部署到 GitHub Pages
 - [ ] MULTI-01: 文档站配置多版本支持（Rspress multiVersion 插件）
 - [ ] MULTI-02: 达梦 v8 版本目录结构已建立，含核心章节占位内容
 - [ ] MULTI-03: 首页展示达梦数据库品牌信息（非 Rspress 默认模板）
@@ -61,8 +58,10 @@
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| 使用 Rspress multiVersion 插件 | 原生支持，无需自研版本切换逻辑 | — Pending |
-| GitHub Pages 部署 | 免费、适合静态文档站 | — Pending |
+| 使用 Rspress multiVersion 插件 | 原生支持，无需自研版本切换逻辑 | — Phase 3 待验证 |
+| GitHub Pages 部署 | 免费、适合静态文档站 | ✓ 已验证 — guangl.github.io/dm-database-docs/ 可访问 |
+| GitHub 官方 Pages Actions（非 peaceiris） | OIDC 鉴权更安全，官方维护 | ✓ Phase 2 — 工作流全绿 |
+| rspress base: '/dm-database-docs/' | GitHub Pages 子路径部署必需 | ✓ Phase 2 — 静态资源路径正确 |
 
 ## Evolution
 
@@ -82,4 +81,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-05-25 after milestone v0.1.0 initialization*
+*Last updated: 2026-05-25 after Phase 2 (CI/CD 自动化)*

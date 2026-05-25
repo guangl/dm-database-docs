@@ -5,11 +5,11 @@ export default defineConfig({
   llms: true,
   root: path.join(__dirname, 'docs'),
   base: '/dm-database-docs/',
-  title: 'My Site',
-  // multiVersion: {
-  //   default: 'v8',
-  //   versions: ['v8', 'v9'],
-  // },
+  title: '达梦数据库文档',
+  multiVersion: {
+    default: 'v8',
+    versions: ['v8'],
+  },
   themeConfig: {
     llmsUI: false,
     socialLinks: [

@@ -12,7 +12,7 @@
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: 项目基础文件** - 添加 LICENSE 和真实内容的 README，完成项目身份
+- [x] **Phase 1: 项目基础文件** - 添加 LICENSE 和真实内容的 README，完成项目身份 (completed 2026-05-25)
 - [ ] **Phase 2: CI/CD 自动化** - 配置 GitHub Actions 实现推送主分支时自动构建并部署到 GitHub Pages
 - [ ] **Phase 3: 多版本文档框架** - 配置 multiVersion 插件、建立 v8 文档目录结构、替换首页与导航内容
 
@@ -26,7 +26,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   1. 仓库根目录存在 LICENSE 文件，内容为 MIT 许可证，年份与作者正确
   2. README.md 描述达梦数据库文档站的用途，不含 Rspress 默认模板内容
   3. README.md 包含本地开发启动步骤（`bun run dev`）
-**Plans**: TBD
+**Plans**: 1 plan
+
+Plans:
+- [x] 01-01-PLAN.md — 创建 MIT LICENSE 文件并替换 README.md 为达梦文档站中文内容
 
 ### Phase 2: CI/CD 自动化
 **Goal**: 每次推送主分支时，文档站自动构建并部署到 GitHub Pages，无需手动操作
@@ -37,7 +40,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. 构建步骤使用 Bun 安装依赖并运行 `bun run build`，构建失败时工作流标红
   3. 构建成功后，生成的静态文件自动发布到 GitHub Pages，可通过公开 URL 访问
   4. 工作流文件存在于 `.github/workflows/` 目录下
-**Plans**: TBD
+**Plans**: 1 plan
+
+Plans:
+- [x] 02-01-PLAN.md — 添加 rspress base 配置并创建 GitHub Actions 部署工作流
 
 ### Phase 3: 多版本文档框架
 **Goal**: 用户打开文档站能看到达梦品牌首页，导航栏可切换版本，v8 各核心章节的占位页面均可访问
@@ -58,6 +64,6 @@ Phases execute in numeric order: 1 → 2 → 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. 项目基础文件 | 0/TBD | Not started | - |
+| 1. 项目基础文件 | 1/1 | Complete   | 2026-05-25 |
 | 2. CI/CD 自动化 | 0/TBD | Not started | - |
 | 3. 多版本文档框架 | 0/TBD | Not started | - |
