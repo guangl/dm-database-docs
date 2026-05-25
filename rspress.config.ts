@@ -1,18 +1,17 @@
 import * as path from 'node:path';
 import { defineConfig } from '@rspress/core';
-import { pluginLlms } from '@rspress/plugin-llms';
 
 export default defineConfig({
+  llms: true,
   root: path.join(__dirname, 'docs'),
+  base: '/dm-database-docs/',
   title: 'My Site',
-  icon: '/rspress-icon.png',
-  logo: {
-    light: '/rspress-light-logo.png',
-    dark: '/rspress-dark-logo.png',
-  },
-  plugins: [pluginLlms()],
+  // multiVersion: {
+  //   default: 'v8',
+  //   versions: ['v8', 'v9'],
+  // },
   themeConfig: {
-    llmsUI: true,
+    llmsUI: false,
     socialLinks: [
       {
         icon: 'github',
