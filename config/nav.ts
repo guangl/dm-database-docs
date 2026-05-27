@@ -5,13 +5,13 @@ export const nav = [
     items: [
       {
         text: 'disql',
-        link: '/tool/disql/introduction',
-        activeMatch: '/tool/disql',
+        link: '/disql/introduction',
+        activeMatch: '/disql',
       },
       {
         text: 'rman',
-        link: '/tool/rman/introduction',
-        activeMatch: '/tool/rman',
+        link: '/rman/introduction',
+        activeMatch: '/rman',
       },
     ],
   },

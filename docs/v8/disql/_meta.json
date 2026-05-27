@@ -1,0 +1,26 @@
+[
+    {
+        "type": "file",
+        "name": "introduction",
+        "label": "工具简介"
+    },
+    {
+        "type": "file",
+        "name": "quickstart",
+        "label": "入门指南"
+    },
+    {
+        "type": "section-header",
+        "label": "API 参考"
+    },
+    {
+        "type": "dir",
+        "name": "api/environment-variable",
+        "label": "环境变量",
+        "collapsible": true,
+        "collapsed": true,
+        "overviewHeaders": [
+            1
+        ]
+    }
+]

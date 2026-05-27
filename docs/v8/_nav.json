@@ -1,0 +1,18 @@
+[
+    {
+        "text": "工具",
+        "link": "/disql/introduction",
+        "items": [
+            {
+                "text": "disql",
+                "link": "/disql/introduction",
+                "activeMatch": "^/disql/"
+            },
+            {
+                "text": "rman",
+                "link": "/rman/introduction",
+                "activeMatch": "^/rman/"
+            }
+        ]
+    }
+]
