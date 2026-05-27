@@ -1,7 +1,5 @@
 import * as path from 'node:path';
 import { defineConfig } from '@rspress/core';
-import mermaid from 'rspress-plugin-mermaid';
-
 export default defineConfig({
   llms: true,
   root: path.join(__dirname, 'docs'),
@@ -9,7 +7,7 @@ export default defineConfig({
   title: '达梦数据库',
   description: '达梦数据库文档',
   lang: 'zh',
-  plugins: [mermaid()],
+  plugins: [],
   multiVersion: {
     default: 'v8',
     versions: ['v8'],
