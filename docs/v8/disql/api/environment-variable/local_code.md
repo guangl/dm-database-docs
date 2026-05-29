@@ -9,6 +9,8 @@ title: LOCAL_CODE
 
 ## 语法
 
+![语法图](./railroad/local_code.svg)
+
 ## 参数
 
 * `GBK`

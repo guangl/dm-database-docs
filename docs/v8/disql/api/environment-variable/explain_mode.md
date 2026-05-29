@@ -6,6 +6,8 @@ title: EXPLAIN_MODE
 
 ## 语法
 
+![语法图](./railroad/explain_mode.svg)
+
 ## 参数
 
 * `0` - 正常执行 SQL 语句；

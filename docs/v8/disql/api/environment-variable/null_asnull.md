@@ -6,6 +6,8 @@ title: NULL_ASNULL
 
 ## 语法
 
+![语法图](./railroad/null_asnull.svg)
+
 ## 参数
 
 * `ON` - 做为 `null` 处理；

@@ -6,6 +6,8 @@ title: AUTOTRACE
 
 ## 语法
 
+![语法图](./railroad/autotrace.svg)
+
 ## 参数
 
 * `OFF` - 停止 `AUTOTRACE` 功能，常规执行语句；

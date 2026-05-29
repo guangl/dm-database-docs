@@ -6,6 +6,8 @@ title: ISQL_MODE
 
 ## 语法
 
+![语法图](./railroad/isql_mode.svg)
+
 ## 参数
 
 * `0` - 达梦数据库的打印方式；

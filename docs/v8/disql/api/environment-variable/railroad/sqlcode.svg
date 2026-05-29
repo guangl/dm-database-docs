@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="railroad-diagram" width="389" height="92" viewBox="0 0 389 92">
+<style>.railroad-diagram { background: transparent; }
+.railroad-diagram path { stroke-width: 2; stroke: #374151; fill: none; }
+.railroad-diagram text { font: bold 13px monospace; text-anchor: middle; fill: #111827; }
+.railroad-diagram text.comment { font: italic 12px monospace; fill: #6b7280; }
+.railroad-diagram rect { stroke-width: 2; stroke: #374151; fill: #f3f4f6; }
+@media (prefers-color-scheme: dark) {
+  .railroad-diagram path { stroke: #7c8fa8; }
+  .railroad-diagram text { fill: #e2e8f0; }
+  .railroad-diagram text.comment { fill: #94a3b8; }
+  .railroad-diagram rect { stroke: #5b7fa6; fill: #1e2d45; }
+}</style>
+<g transform="translate(.5 .5)">
+<path d="M 20 51 v 20 m 10 -20 v 20 m -10 -10 h 20.5"></path>
+<path d="M40 61h10"></path>
+<g>
+<path d="M50 61h0"></path>
+<path d="M94 61h0"></path>
+<rect x="50" y="50" width="44" height="22" rx="10" ry="10"></rect>
+<text x="72" y="65">SET</text>
+</g>
+<path d="M94 61h10"></path>
+<path d="M104 61h10"></path>
+<g>
+<path d="M114 61h0"></path>
+<path d="M190 61h0"></path>
+<rect x="114" y="50" width="76" height="22" rx="10" ry="10"></rect>
+<text x="152" y="65">SQLCODE</text>
+</g>
+<path d="M190 61h10"></path>
+<g>
+<path d="M200 61h0"></path>
+<path d="M348 61h0"></path>
+<path d="M200 61a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M220 31h36"></path>
+<path d="M292 31h36"></path>
+<rect x="256" y="20" width="36" height="22" rx="10" ry="10"></rect>
+<text x="274" y="35">ON</text>
+</g>
+<path d="M328 31a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<path d="M200 61h20"></path>
+<g>
+<path d="M220 61h0"></path>
+<path d="M328 61h0"></path>
+<path d="M220 61h10"></path>
+<g>
+<path d="M230 61h0"></path>
+<path d="M274 61h0"></path>
+<rect x="230" y="50" width="44" height="22" rx="10" ry="10"></rect>
+<text x="252" y="65">OFF</text>
+</g>
+<path d="M274 61h10"></path>
+<path d="M284 61h10"></path>
+<g>
+<path d="M294 61h0"></path>
+<path d="M318 61h0"></path>
+<text x="306" y="66" class="comment">默认</text>
+</g>
+<path d="M318 61h10"></path>
+</g>
+<path d="M328 61h20"></path>
+</g>
+<path d="M 348 61 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

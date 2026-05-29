@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="railroad-diagram" width="357" height="72" viewBox="0 0 357 72">
+<style>.railroad-diagram { background: transparent; }
+.railroad-diagram path { stroke-width: 2; stroke: #374151; fill: none; }
+.railroad-diagram text { font: bold 13px monospace; text-anchor: middle; fill: #111827; }
+.railroad-diagram text.comment { font: italic 12px monospace; fill: #6b7280; }
+.railroad-diagram rect { stroke-width: 2; stroke: #374151; fill: #f3f4f6; }
+@media (prefers-color-scheme: dark) {
+  .railroad-diagram path { stroke: #7c8fa8; }
+  .railroad-diagram text { fill: #e2e8f0; }
+  .railroad-diagram text.comment { fill: #94a3b8; }
+  .railroad-diagram rect { stroke: #5b7fa6; fill: #1e2d45; }
+}</style>
+<g transform="translate(.5 .5)">
+<path d="M 20 31 v 20 m 10 -20 v 20 m -10 -10 h 20.5"></path>
+<path d="M40 41h10"></path>
+<g>
+<path d="M50 41h0"></path>
+<path d="M94 41h0"></path>
+<rect x="50" y="30" width="44" height="22" rx="10" ry="10"></rect>
+<text x="72" y="45">SET</text>
+</g>
+<path d="M94 41h10"></path>
+<g>
+<path d="M104 41h0"></path>
+<path d="M268 41h0"></path>
+<path d="M104 41h10"></path>
+<g>
+<path d="M114 41h0"></path>
+<path d="M174 41h0"></path>
+<rect x="114" y="30" width="60" height="22" rx="10" ry="10"></rect>
+<text x="144" y="45">PAGES</text>
+</g>
+<path d="M174 41h10"></path>
+<g>
+<path d="M184 41h0"></path>
+<path d="M268 41h0"></path>
+<path d="M184 41a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M204 21h44"></path>
+</g>
+<path d="M248 21a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M184 41h20"></path>
+<g>
+<path d="M204 41h0"></path>
+<path d="M248 41h0"></path>
+<rect x="204" y="30" width="44" height="22" rx="10" ry="10"></rect>
+<text x="226" y="45">IZE</text>
+</g>
+<path d="M248 41h20"></path>
+</g>
+</g>
+<path d="M268 41h10"></path>
+<g>
+<path d="M278 41h0"></path>
+<path d="M306 41h0"></path>
+<rect x="278" y="30" width="28" height="22"></rect>
+<text x="292" y="45">n</text>
+</g>
+<path d="M306 41h10"></path>
+<path d="M 316 41 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

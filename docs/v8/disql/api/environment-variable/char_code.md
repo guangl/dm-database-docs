@@ -6,6 +6,8 @@ title: CHAR_CODE
 
 ## 语法
 
+![语法图](./railroad/char_code.svg)
+
 ## 参数
 
 * `GBK`

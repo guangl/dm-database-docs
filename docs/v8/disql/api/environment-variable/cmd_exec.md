@@ -6,6 +6,8 @@ title: CMD_EXEC
 
 ## 语法
 
+![语法图](./railroad/cmd_exec.svg)
+
 ## 参数
 
 * `ON` - 执行 `/` 命令；

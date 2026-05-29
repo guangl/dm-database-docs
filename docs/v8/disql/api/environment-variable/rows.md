@@ -6,6 +6,8 @@ title: ROWS
 
 ## 语法
 
+![语法图](./railroad/rows.svg)
+
 ## 参数
 
 * `0` - 不限制；

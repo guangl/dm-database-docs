@@ -6,6 +6,8 @@ title: CTRL_INFO
 
 ## 语法
 
+![语法图](./railroad/ctrl_info.svg)
+
 ## 参数
 
 > [!note]

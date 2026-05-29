@@ -12,6 +12,8 @@ title: NEST_COMMENT
 
 ## 语法
 
+![语法图](./railroad/nest_comment.svg)
+
 ## 参数
 
 * `ON` - 支持多层注释；

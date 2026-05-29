@@ -6,6 +6,8 @@ title: READ_ONLY
 
 ## 语法
 
+![语法图](./railroad/read_only.svg)
+
 ## 参数
 
 * `ON` - 当前会话只能只读；

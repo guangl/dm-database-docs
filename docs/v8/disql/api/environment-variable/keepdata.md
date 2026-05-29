@@ -6,6 +6,8 @@ title: KEEPDATA
 
 ## 语法
 
+![语法图](./railroad/keepdata.svg)
+
 ## 参数
 
 * `ON` - 表示关闭对齐优化；

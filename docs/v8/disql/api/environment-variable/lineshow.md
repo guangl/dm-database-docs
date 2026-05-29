@@ -6,6 +6,8 @@ title: LINESHOW
 
 ## 语法
 
+![语法图](./railroad/lineshow.svg)
+
 ## 参数
 
 * `ON` - 显示；

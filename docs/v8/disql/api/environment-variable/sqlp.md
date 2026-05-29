@@ -6,6 +6,8 @@ title: SQLP[ROMPT]
 
 ## 语法
 
+![语法图](./railroad/sqlp.svg)
+
 ## 参数
 
 <!-- TODO 官方文档描述很抽搐 -->

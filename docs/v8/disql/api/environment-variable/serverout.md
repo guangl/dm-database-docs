@@ -8,6 +8,8 @@ title: SERVEROUT[PUT]
 
 ## 语法
 
+![语法图](./railroad/serverout.svg)
+
 ## 参数
 
 * `ON` - 打印；

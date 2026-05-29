@@ -6,6 +6,8 @@ title: VER[IFY]
 
 ## 语法
 
+![语法图](./railroad/ver.svg)
+
 ## 参数
 
 * `ON` - 显示；

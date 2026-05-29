@@ -6,6 +6,8 @@ title: TIMING
 
 ## 语法
 
+![语法图](./railroad/timing.svg)
+
 ## 参数
 
 * `ON` - 显示；

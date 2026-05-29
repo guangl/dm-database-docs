@@ -8,6 +8,8 @@ title: SCREENBUFSIZE
 
 ## 语法
 
+![语法图](./railroad/screenbufsize.svg)
+
 ## 参数
 
 <!-- TODO 能不能直接写 50M，还是得写 50*1024*1024 -->

@@ -9,6 +9,8 @@ title: HEA[DING]
 
 ## 语法
 
+![语法图](./railroad/hea.svg)
+
 ## 参数
 
 * `ON` - 显示；

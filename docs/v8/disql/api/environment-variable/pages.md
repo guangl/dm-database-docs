@@ -6,6 +6,8 @@ title: PAGES[IZE]
 
 ## 语法
 
+![语法图](./railroad/pages.svg)
+
 ## 参数
 
 * `n` - 取值范围：0~5000；

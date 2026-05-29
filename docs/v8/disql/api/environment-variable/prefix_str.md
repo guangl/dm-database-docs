@@ -11,6 +11,8 @@ title: PREFIX_STR
 
 ## 语法
 
+![语法图](./railroad/prefix_str.svg)
+
 ## 参数
 
 * `text` - SQL 语句的拼接前缀。前缀必须是注释的形式：`/*xxx*/`。其他形式将报错。

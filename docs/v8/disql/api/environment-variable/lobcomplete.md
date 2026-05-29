@@ -10,6 +10,8 @@ title: LOBCOMPLETE
 
 ## 语法
 
+![语法图](./railroad/lobcomplete.svg)
+
 ## 参数
 
 * `ON` - 从服务器中取出大字段的全部数据；

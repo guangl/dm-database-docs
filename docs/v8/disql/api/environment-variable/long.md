@@ -6,6 +6,8 @@ title: LONG
 
 ## 语法
 
+![语法图](./railroad/long.svg)
+
 ## 参数
 
 * `n` - 能够显示的最大字节数；

@@ -6,6 +6,8 @@ title: DESCRIBE
 
 ## 语法
 
+![语法图](./railroad/describe.svg)
+
 ## 参数
 
 * `DEPTH` - 结构信息显示至第 N 层，默认只显示第 1 层。取值范围是 1~50；

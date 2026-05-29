@@ -6,6 +6,8 @@ title: FLOAT_SHOW
 
 ## 语法
 
+![语法图](./railroad/float_show.svg)
+
 ## 参数
 
 * `float_length` - 当数据直接打印长度超过 `float_length` 时以科学计数法显示，取值范围为 0~350；

@@ -6,6 +6,8 @@ title: AUTO[COMMIT]
 
 ## 语法
 
+![语法图](./railroad/auto.svg)
+
 
 ## 参数
 

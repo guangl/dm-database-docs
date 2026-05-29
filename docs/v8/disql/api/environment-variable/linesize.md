@@ -6,6 +6,8 @@ title: LINESIZE
 
 ## 语法
 
+![语法图](./railroad/linesize.svg)
+
 ## 参数
 
 * `<screen_length>` - 屏幕宽度；

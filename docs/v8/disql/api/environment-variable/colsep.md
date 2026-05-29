@@ -6,6 +6,8 @@ title: COLSEP
 
 ## 语法
 
+![语法图](./railroad/colsep.svg)
+
 ## 参数
 
 > [!info]

@@ -10,6 +10,8 @@ title: SQLCODE
 
 ## 语法
 
+![语法图](./railroad/sqlcode.svg)
+
 ## 参数
 
 * `ON` - 打印返回值；

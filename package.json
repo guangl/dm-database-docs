@@ -9,7 +9,7 @@
     "dev": "rspress dev",
     "format": "biome format --write",
     "preview": "rspress preview",
-    "build:railroad": "npx railroad-cli grammar.json -o select.svg"
+    "gen:railroad": "bun scripts/gen-railroad.mjs"
   },
   "dependencies": {
     "@rspress/core": "^2.0.11"
@@ -20,6 +20,7 @@
     "@types/node": "^22.8.1",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
+    "railroad-diagrams": "^1.0.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
   }

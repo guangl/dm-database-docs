@@ -6,6 +6,8 @@ title: FEED[BACK]
 
 ## 语法
 
+![语法图](./railroad/feed.svg)
+
 ## 参数
 
 * `n` - 表示结果大于 `n` 行时，才显示结果的总行数；

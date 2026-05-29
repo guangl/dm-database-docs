@@ -6,6 +6,8 @@ title: CONSOLE_PRINT
 
 ## 语法
 
+![语法图](./railroad/console_print.svg)
+
 ## 参数
 
 * `ON` - 是，打印执行结果和执行时间；

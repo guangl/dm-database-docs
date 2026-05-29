@@ -6,6 +6,8 @@ title: ECHO
 
 ## 语法
 
+![语法图](./railroad/echo.svg)
+
 ## 参数
 
 * `ON` - 显示；

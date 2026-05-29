@@ -10,6 +10,8 @@ title: RETRY_CONN
 
 ## 语法
 
+![语法图](./railroad/retry_conn.svg)
+
 ## 参数
 
 * `3` - 默认重连次数为 3；

@@ -6,6 +6,8 @@ title: CHARDEL
 
 ## 语法
 
+![语法图](./railroad/chardel.svg)
+
 ## 参数
 
 > [!info]

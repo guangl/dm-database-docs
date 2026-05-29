@@ -6,6 +6,8 @@ title: CURSOR
 
 ## 语法
 
+![语法图](./railroad/cursor.svg)
+
 ## 参数
 
 * `STATIC` - 静态游标。静态游标在打开时锁定结果集，并且在游标操作期间保持不变；

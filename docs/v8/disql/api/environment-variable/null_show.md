@@ -6,6 +6,8 @@ title: NULL_SHOW
 
 ## 语法
 
+![语法图](./railroad/null_show.svg)
+
 ## 参数
 
 * `ON` - 显示；

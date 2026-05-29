@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="railroad-diagram" width="473" height="92" viewBox="0 0 473 92">
+<style>.railroad-diagram { background: transparent; }
+.railroad-diagram path { stroke-width: 2; stroke: #374151; fill: none; }
+.railroad-diagram text { font: bold 13px monospace; text-anchor: middle; fill: #111827; }
+.railroad-diagram text.comment { font: italic 12px monospace; fill: #6b7280; }
+.railroad-diagram rect { stroke-width: 2; stroke: #374151; fill: #f3f4f6; }
+@media (prefers-color-scheme: dark) {
+  .railroad-diagram path { stroke: #7c8fa8; }
+  .railroad-diagram text { fill: #e2e8f0; }
+  .railroad-diagram text.comment { fill: #94a3b8; }
+  .railroad-diagram rect { stroke: #5b7fa6; fill: #1e2d45; }
+}</style>
+<g transform="translate(.5 .5)">
+<path d="M 20 51 v 20 m 10 -20 v 20 m -10 -10 h 20.5"></path>
+<path d="M40 61h10"></path>
+<g>
+<path d="M50 61h0"></path>
+<path d="M94 61h0"></path>
+<rect x="50" y="50" width="44" height="22" rx="10" ry="10"></rect>
+<text x="72" y="65">SET</text>
+</g>
+<path d="M94 61h10"></path>
+<g>
+<path d="M104 61h0"></path>
+<path d="M284 61h0"></path>
+<path d="M104 61h10"></path>
+<g>
+<path d="M114 61h0"></path>
+<path d="M166 61h0"></path>
+<rect x="114" y="50" width="52" height="22" rx="10" ry="10"></rect>
+<text x="140" y="65">AUTO</text>
+</g>
+<path d="M166 61h10"></path>
+<g>
+<path d="M176 61h0"></path>
+<path d="M284 61h0"></path>
+<path d="M176 61a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M196 41h68"></path>
+</g>
+<path d="M264 41a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M176 61h20"></path>
+<g>
+<path d="M196 61h0"></path>
+<path d="M264 61h0"></path>
+<rect x="196" y="50" width="68" height="22" rx="10" ry="10"></rect>
+<text x="230" y="65">COMMIT</text>
+</g>
+<path d="M264 61h20"></path>
+</g>
+</g>
+<g>
+<path d="M284 61h0"></path>
+<path d="M432 61h0"></path>
+<path d="M284 61a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M304 31h36"></path>
+<path d="M376 31h36"></path>
+<rect x="340" y="20" width="36" height="22" rx="10" ry="10"></rect>
+<text x="358" y="35">ON</text>
+</g>
+<path d="M412 31a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<path d="M284 61h20"></path>
+<g>
+<path d="M304 61h0"></path>
+<path d="M412 61h0"></path>
+<path d="M304 61h10"></path>
+<g>
+<path d="M314 61h0"></path>
+<path d="M358 61h0"></path>
+<rect x="314" y="50" width="44" height="22" rx="10" ry="10"></rect>
+<text x="336" y="65">OFF</text>
+</g>
+<path d="M358 61h10"></path>
+<path d="M368 61h10"></path>
+<g>
+<path d="M378 61h0"></path>
+<path d="M402 61h0"></path>
+<text x="390" y="66" class="comment">默认</text>
+</g>
+<path d="M402 61h10"></path>
+</g>
+<path d="M412 61h20"></path>
+</g>
+<path d="M 432 61 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

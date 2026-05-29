@@ -6,6 +6,8 @@ title: ERR_FMT
 
 ## 语法
 
+![语法图](./railroad/err_fmt.svg)
+
 ## 参数
 
 * `ON` - 带有前缀，错误信息按 `DMERR-[ERRCODE]` 格式展示；

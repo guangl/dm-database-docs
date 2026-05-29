@@ -6,6 +6,8 @@ title: RETRY_CONN_TIME
 
 ## 语法
 
+![语法图](./railroad/retry_conn_time.svg)
+
 ## 参数
 
 * `0` - 无时间间隔进行重连；

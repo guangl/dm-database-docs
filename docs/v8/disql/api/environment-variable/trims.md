@@ -6,6 +6,8 @@ title: TRIMS[POOL]
 
 ## 语法
 
+![语法图](./railroad/trims.svg)
+
 ## 参数
 
 * `ON` - 去除空格；
