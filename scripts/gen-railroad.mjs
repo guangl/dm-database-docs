@@ -17,19 +17,12 @@ const rr = require('railroad-diagrams');
 
 const { Diagram, Sequence, Choice, Optional, Terminal, NonTerminal, Comment } = rr;
 
-// 自适应浅色/深色模式
 const CSS = `
 .railroad-diagram { background: transparent; }
 .railroad-diagram path { stroke-width: 2; stroke: #374151; fill: none; }
 .railroad-diagram text { font: bold 13px monospace; text-anchor: middle; fill: #111827; }
 .railroad-diagram text.comment { font: italic 12px monospace; fill: #6b7280; }
 .railroad-diagram rect { stroke-width: 2; stroke: #374151; fill: #f3f4f6; }
-@media (prefers-color-scheme: dark) {
-  .railroad-diagram path { stroke: #7c8fa8; }
-  .railroad-diagram text { fill: #e2e8f0; }
-  .railroad-diagram text.comment { fill: #94a3b8; }
-  .railroad-diagram rect { stroke: #5b7fa6; fill: #1e2d45; }
-}
 `.trim();
 
 function makeSVG(diagram) {

@@ -41,6 +41,10 @@ export default defineConfig({
           tag: 'script',
           children: "window.RSPRESS_THEME = 'dark'",
         },
+        {
+          tag: 'style',
+          children: 'html.dark img[src*="railroad/"] { filter: invert(1) hue-rotate(180deg); }',
+        },
       ],
     },
   },
