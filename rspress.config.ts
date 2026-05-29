@@ -43,7 +43,7 @@ export default defineConfig({
         },
         {
           tag: 'style',
-          children: 'html.dark img[src*="railroad/"] { filter: invert(1) hue-rotate(180deg); }',
+          children: 'html.dark img[alt="语法图"] { filter: invert(1) hue-rotate(180deg); }',
         },
       ],
     },
