@@ -1,0 +1,30 @@
+[
+  {
+    "type": "file",
+    "name": "introduction",
+    "label": "功能简介"
+  },
+  {
+    "type": "file",
+    "name": "usage",
+    "label": "使用 dmdbchk"
+  },
+  {
+    "type": "file",
+    "name": "report",
+    "label": "dmdbchk 报告解读"
+  },
+  {
+    "type": "file",
+    "name": "examples",
+    "label": "应用实例"
+  },
+  {
+    "type": "dir",
+    "name": "parameters",
+    "label": "查看 dmdbchk 参数",
+    "collapsible": true,
+    "collapsed": true,
+    "overviewHeaders": [1]
+  }
+]

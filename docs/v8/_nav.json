@@ -17,6 +17,11 @@
         "text": "rman",
         "link": "/rman/introduction",
         "activeMatch": "^/rman/"
+      },
+      {
+        "text": "dmdbchk",
+        "link": "/dmdbchk/introduction",
+        "activeMatch": "^/dmdbchk/"
       }
     ]
   }
