@@ -6,16 +6,17 @@
  * - 颜色：SVG 内嵌 prefers-color-scheme，浅色/深色模式均可正常显示
  */
 
+import { mkdirSync, readFileSync, writeFileSync } from 'fs';
 import { createRequire } from 'module';
-import { readFileSync, writeFileSync, mkdirSync } from 'fs';
-import { join, dirname } from 'path';
+import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const require = createRequire(import.meta.url);
 const rr = require('railroad-diagrams');
 
-const { Diagram, Sequence, Choice, Optional, Terminal, NonTerminal, Comment } = rr;
+const { Diagram, Sequence, Choice, Optional, Terminal, NonTerminal, Comment } =
+  rr;
 
 const CSS = `
 .railroad-diagram { background: transparent; }
@@ -33,12 +34,18 @@ function makeSVG(diagram) {
 }
 
 // 带默认标注的选项组 —— Comment('默认') 紧跟默认选项，明确可见
-const D = (t) => Sequence(Terminal(t), Comment('默认'));  // 带标注的默认终结符
+const D = (t) => Sequence(Terminal(t), Comment('默认')); // 带标注的默认终结符
 
-const ON_OFF_DEFAULT_ON  = () => Choice(0, D('ON'),  Terminal('OFF'));
+const ON_OFF_DEFAULT_ON = () => Choice(0, D('ON'), Terminal('OFF'));
 const ON_OFF_DEFAULT_OFF = () => Choice(1, Terminal('ON'), D('OFF'));
 const ENCODING = () =>
-  Choice(3, Terminal('GBK'), Terminal('GB18030'), Terminal('UTF8'), D('DEFAULT'));
+  Choice(
+    3,
+    Terminal('GBK'),
+    Terminal('GB18030'),
+    Terminal('UTF8'),
+    D('DEFAULT'),
+  );
 
 /**
  * 每项 { file, diagram }
@@ -59,7 +66,11 @@ const ENTRIES = [
   {
     // 默认 OFF
     file: 'autoreconn',
-    diagram: Diagram(Terminal('SET'), Terminal('AUTORECONN'), ON_OFF_DEFAULT_OFF()),
+    diagram: Diagram(
+      Terminal('SET'),
+      Terminal('AUTORECONN'),
+      ON_OFF_DEFAULT_OFF(),
+    ),
   },
   {
     // 默认 OFF
@@ -67,7 +78,15 @@ const ENTRIES = [
     diagram: Diagram(
       Terminal('SET'),
       Terminal('AUTOTRACE'),
-      Choice(0, D('OFF'), Terminal('NL'), Terminal('INDEX'), Terminal('ON'), Terminal('TRACE'), Terminal('TRACEONLY')),
+      Choice(
+        0,
+        D('OFF'),
+        Terminal('NL'),
+        Terminal('INDEX'),
+        Terminal('ON'),
+        Terminal('TRACE'),
+        Terminal('TRACEONLY'),
+      ),
     ),
   },
   {
@@ -82,7 +101,11 @@ const ENTRIES = [
   {
     // 默认 ON
     file: 'cmd_exec',
-    diagram: Diagram(Terminal('SET'), Terminal('CMD_EXEC'), ON_OFF_DEFAULT_ON()),
+    diagram: Diagram(
+      Terminal('SET'),
+      Terminal('CMD_EXEC'),
+      ON_OFF_DEFAULT_ON(),
+    ),
   },
   {
     file: 'colsep',
@@ -94,7 +117,13 @@ const ENTRIES = [
     diagram: Diagram(
       Terminal('SET'),
       Terminal('CONSOLE_PRINT'),
-      Choice(0, D('ON'), Terminal('OFF'), Terminal('OFF_WITH_TIME'), Terminal('OFF_WITH_FEEDBACK')),
+      Choice(
+        0,
+        D('ON'),
+        Terminal('OFF'),
+        Terminal('OFF_WITH_TIME'),
+        Terminal('OFF_WITH_FEEDBACK'),
+      ),
     ),
   },
   {
@@ -129,7 +158,12 @@ const ENTRIES = [
     diagram: Diagram(
       Terminal('SET'),
       Terminal('DESCRIBE'),
-      Optional(Sequence(Terminal('DEPTH'), Choice(0, NonTerminal('n'), Terminal('ALL')))),
+      Optional(
+        Sequence(
+          Terminal('DEPTH'),
+          Choice(0, NonTerminal('n'), Terminal('ALL')),
+        ),
+      ),
       Optional(Sequence(Terminal('LINENUM'), ON_OFF_DEFAULT_ON())),
       Optional(Sequence(Terminal('INDENT'), ON_OFF_DEFAULT_OFF())),
     ),
@@ -142,7 +176,11 @@ const ENTRIES = [
   {
     // 默认 OFF
     file: 'err_fmt',
-    diagram: Diagram(Terminal('SET'), Terminal('ERR_FMT'), ON_OFF_DEFAULT_OFF()),
+    diagram: Diagram(
+      Terminal('SET'),
+      Terminal('ERR_FMT'),
+      ON_OFF_DEFAULT_OFF(),
+    ),
   },
   {
     // 默认 0（正常执行）
@@ -191,12 +229,20 @@ const ENTRIES = [
   {
     // 默认 OFF（默认进行对齐优化）
     file: 'keepdata',
-    diagram: Diagram(Terminal('SET'), Terminal('KEEPDATA'), ON_OFF_DEFAULT_OFF()),
+    diagram: Diagram(
+      Terminal('SET'),
+      Terminal('KEEPDATA'),
+      ON_OFF_DEFAULT_OFF(),
+    ),
   },
   {
     // 默认 OFF
     file: 'lineshow',
-    diagram: Diagram(Terminal('SET'), Terminal('LINESHOW'), ON_OFF_DEFAULT_OFF()),
+    diagram: Diagram(
+      Terminal('SET'),
+      Terminal('LINESHOW'),
+      ON_OFF_DEFAULT_OFF(),
+    ),
   },
   {
     file: 'linesize',
@@ -205,7 +251,11 @@ const ENTRIES = [
   {
     // 默认 OFF
     file: 'lobcomplete',
-    diagram: Diagram(Terminal('SET'), Terminal('LOBCOMPLETE'), ON_OFF_DEFAULT_OFF()),
+    diagram: Diagram(
+      Terminal('SET'),
+      Terminal('LOBCOMPLETE'),
+      ON_OFF_DEFAULT_OFF(),
+    ),
   },
   {
     // 默认 DEFAULT
@@ -219,7 +269,11 @@ const ENTRIES = [
   {
     // 默认 OFF
     file: 'nest_comment',
-    diagram: Diagram(Terminal('SET'), Terminal('NEST_COMMENT'), ON_OFF_DEFAULT_OFF()),
+    diagram: Diagram(
+      Terminal('SET'),
+      Terminal('NEST_COMMENT'),
+      ON_OFF_DEFAULT_OFF(),
+    ),
   },
   {
     // 默认 n=1
@@ -233,12 +287,20 @@ const ENTRIES = [
   {
     // 默认 OFF
     file: 'null_asnull',
-    diagram: Diagram(Terminal('SET'), Terminal('NULL_ASNULL'), ON_OFF_DEFAULT_OFF()),
+    diagram: Diagram(
+      Terminal('SET'),
+      Terminal('NULL_ASNULL'),
+      ON_OFF_DEFAULT_OFF(),
+    ),
   },
   {
     // 默认 OFF
     file: 'null_show',
-    diagram: Diagram(Terminal('SET'), Terminal('NULL_SHOW'), ON_OFF_DEFAULT_OFF()),
+    diagram: Diagram(
+      Terminal('SET'),
+      Terminal('NULL_SHOW'),
+      ON_OFF_DEFAULT_OFF(),
+    ),
   },
   {
     file: 'pages',
@@ -250,12 +312,20 @@ const ENTRIES = [
   },
   {
     file: 'prefix_str',
-    diagram: Diagram(Terminal('SET'), Terminal('PREFIX_STR'), NonTerminal('text')),
+    diagram: Diagram(
+      Terminal('SET'),
+      Terminal('PREFIX_STR'),
+      NonTerminal('text'),
+    ),
   },
   {
     // 默认 OFF
     file: 'read_only',
-    diagram: Diagram(Terminal('SET'), Terminal('READ_ONLY'), ON_OFF_DEFAULT_OFF()),
+    diagram: Diagram(
+      Terminal('SET'),
+      Terminal('READ_ONLY'),
+      ON_OFF_DEFAULT_OFF(),
+    ),
   },
   {
     // 默认 3
@@ -286,7 +356,11 @@ const ENTRIES = [
   },
   {
     file: 'screenbufsize',
-    diagram: Diagram(Terminal('SET'), Terminal('SCREENBUFSIZE'), NonTerminal('n')),
+    diagram: Diagram(
+      Terminal('SET'),
+      Terminal('SCREENBUFSIZE'),
+      NonTerminal('n'),
+    ),
   },
   {
     // 默认 OFF
@@ -296,18 +370,33 @@ const ENTRIES = [
       Sequence(Terminal('SERVEROUT'), Optional(Terminal('PUT'))),
       ON_OFF_DEFAULT_OFF(),
       Optional(Sequence(Terminal('SIZE'), NonTerminal('n'))),
-      Optional(Choice(0, Terminal('WORD_WRAPPED'), Terminal('TRUNCATED'), Terminal('FORMAT'))),
+      Optional(
+        Choice(
+          0,
+          Terminal('WORD_WRAPPED'),
+          Terminal('TRUNCATED'),
+          Terminal('FORMAT'),
+        ),
+      ),
     ),
   },
   {
     // 默认 OFF
     file: 'sql_lineshow',
-    diagram: Diagram(Terminal('SET'), Terminal('SQL_LINESHOW'), ON_OFF_DEFAULT_OFF()),
+    diagram: Diagram(
+      Terminal('SET'),
+      Terminal('SQL_LINESHOW'),
+      ON_OFF_DEFAULT_OFF(),
+    ),
   },
   {
     // 默认 OFF
     file: 'sqlcode',
-    diagram: Diagram(Terminal('SET'), Terminal('SQLCODE'), ON_OFF_DEFAULT_OFF()),
+    diagram: Diagram(
+      Terminal('SET'),
+      Terminal('SQLCODE'),
+      ON_OFF_DEFAULT_OFF(),
+    ),
   },
   {
     file: 'sqlp',
@@ -388,4 +477,6 @@ for (const { file, diagram } of ENTRIES) {
   console.log(`✓  ${file}`);
 }
 
-console.log(`\n完成：生成 ${ENTRIES.length} 张铁路图，处理 ${updatedCount} 个文档`);
+console.log(
+  `\n完成：生成 ${ENTRIES.length} 张铁路图，处理 ${updatedCount} 个文档`,
+);

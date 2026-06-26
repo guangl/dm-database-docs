@@ -1,18 +1,23 @@
 [
-    {
-        "text": "工具",
+  {
+    "text": "安装",
+    "link": "/pm/installation-introduction",
+    "activeMatch": "^/pm/(?!faq-install/)"
+  },
+  {
+    "text": "工具",
+    "link": "/disql/introduction",
+    "items": [
+      {
+        "text": "disql",
         "link": "/disql/introduction",
-        "items": [
-            {
-                "text": "disql",
-                "link": "/disql/introduction",
-                "activeMatch": "^/disql/"
-            },
-            {
-                "text": "rman",
-                "link": "/rman/introduction",
-                "activeMatch": "^/rman/"
-            }
-        ]
-    }
+        "activeMatch": "^/disql/"
+      },
+      {
+        "text": "rman",
+        "link": "/rman/introduction",
+        "activeMatch": "^/rman/"
+      }
+    ]
+  }
 ]
