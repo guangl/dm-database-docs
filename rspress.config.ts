@@ -1,7 +1,7 @@
 import * as path from 'node:path';
 import { defineConfig } from '@rspress/core';
 export default defineConfig({
-  llms: true,
+  llms: false,
   root: path.join(__dirname, 'docs'),
   base: '/dm-database-docs/',
   title: '达梦数据库',
@@ -19,7 +19,8 @@ export default defineConfig({
     enableScrollToTop: true,
     enableContentAnimation: true,
     editLink: {
-      docRepoBaseUrl: 'https://github.com/guangl/dm-database-docs/edit/main/docs',
+      docRepoBaseUrl:
+        'https://github.com/guangl/dm-database-docs/edit/main/docs',
     },
     socialLinks: [
       {
@@ -43,7 +44,8 @@ export default defineConfig({
         },
         {
           tag: 'style',
-          children: 'html.dark img[alt="语法图"] { filter: invert(1) hue-rotate(180deg); }',
+          children:
+            'html.dark img[alt="语法图"] { filter: invert(1) hue-rotate(180deg); }',
         },
       ],
     },

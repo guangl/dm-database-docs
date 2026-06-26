@@ -1,0 +1,75 @@
+[
+  {
+    "type": "section-header",
+    "label": "概述"
+  },
+  {
+    "type": "file",
+    "name": "installation-introduction",
+    "label": "安装简介"
+  },
+  {
+    "type": "section-header",
+    "label": "安装"
+  },
+  {
+    "type": "file",
+    "name": "install-windows",
+    "label": "Windows"
+  },
+  {
+    "type": "file",
+    "name": "install-linux",
+    "label": "Linux"
+  },
+  {
+    "type": "section-header",
+    "label": "卸载"
+  },
+  {
+    "type": "file",
+    "name": "uninstall-windows",
+    "label": "Windows"
+  },
+  {
+    "type": "file",
+    "name": "uninstall-linux",
+    "label": "Linux"
+  },
+  {
+    "type": "section-header",
+    "label": "问题"
+  },
+  {
+    "type": "dir",
+    "name": "faq-install",
+    "label": "常见问题",
+    "collapsible": true,
+    "collapsed": true,
+    "overviewHeaders": [1]
+  },
+  {
+    "type": "section-header",
+    "label": "其他"
+  },
+  {
+    "type": "file",
+    "name": "license",
+    "label": "License 的安装"
+  },
+  {
+    "type": "file",
+    "name": "dm8-tools",
+    "label": "数据库配置工具使用说明"
+  },
+  {
+    "type": "file",
+    "name": "dm8-appendix",
+    "label": "注意事项"
+  },
+  {
+    "type": "file",
+    "name": "silent-install-config",
+    "label": "静默安装配置文件解析"
+  }
+]
