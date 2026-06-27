@@ -22,6 +22,11 @@
         "text": "dmdbchk",
         "link": "/dmdbchk/introduction",
         "activeMatch": "^/dmdbchk/"
+      },
+      {
+        "text": "dmfldr",
+        "link": "/dmfldr/introduction",
+        "activeMatch": "^/dmfldr/"
       }
     ]
   }

@@ -5,6 +5,10 @@
     "label": "功能简介"
   },
   {
+    "type": "section-header",
+    "label": "dmdbchk"
+  },
+  {
     "type": "file",
     "name": "usage",
     "label": "使用 dmdbchk"
@@ -18,6 +22,10 @@
     "type": "file",
     "name": "examples",
     "label": "应用实例"
+  },
+  {
+    "type": "section-header",
+    "label": "参数"
   },
   {
     "type": "dir",
