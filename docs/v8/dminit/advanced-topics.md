@@ -46,7 +46,7 @@ title: dminit 高级主题
 | dcr_seqno | 连接 DMASM 节点节点号 |
 | temp_dbf_path | 指定 TEMP.DBF 文件存放路径。可选，若不指定默认在 SYSTEM_PATH/`DB_NAME` 下；实例级参数，需要填写在 [node_instance] 之后 |
 
-例如，在 ASM 文件系统上创建数据库。参数 system_path、main、system、roll、ctl_path、log01、log02 都指定了 ASM 文件系统。以 `+` 开头的就是 ASM 文件系统的路径，例如 `+DMDATA/data`。单机配置文件（命名 dminit.ini）书写如下：
+例如，在 ASM 文件系统上创建数据库。参数 `system_path`、`main`、`system`、`roll`、`ctl_path`、`log01`、`log02` 都指定了 ASM 文件系统。以 `+` 开头的就是 ASM 文件系统的路径，例如 `+DMDATA/data`。单机配置文件（命名 dminit.ini）书写如下：
 
 ```plaintext
 [DAMENG]
@@ -70,7 +70,7 @@ sysauditor_pwd=DMauditor_123
 
 达梦数据库 DSC 是一个单数据库、多实例的集群系统，数据库部署在共享存储上，供所有节点访问，具有高可用性、高性能、低成本等特性。达梦数据库支持在 DSC 环境下创建数据库。
 
-DSC 的初始化库配置文件 dminit.ini 中涉及到的参数，是在单机 dminit.ini 基础上，增加了 DSC 节点信息。同时，把单机 dminit.ini 中 node_instance 参数去掉，log_path 参数下放到每个 DSC 节点里。详细的节点信息请参考下表：
+DSC 的初始化库配置文件 dminit.ini 中涉及到的参数，是在单机 dminit.ini 基础上，增加了 DSC 节点信息。同时，把单机 dminit.ini 中 `node_instance` 参数去掉，`log_path` 参数下放到每个 DSC 节点里。详细的节点信息请参考下表：
 
 **表 DSC 节点信息**
 

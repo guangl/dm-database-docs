@@ -8,7 +8,7 @@ title: PAGE_CHECK、PAGE_HASH_NAME
 
 当校验到数据页内容损坏时，分为以下几种情况进行处理：
 
-- 若数据文件（或回滚文件）有镜像文件（涉及到的建库参数有 system_mirror_path、main_mirror_path 和 roll_mirror_path，或在创建表空间时指定镜像文件），系统会自动读取镜像文件中的数据继续提供服务；
+- 若数据文件（或回滚文件）有镜像文件（涉及到的建库参数有 `system_mirror_path`、`main_mirror_path` 和 `roll_mirror_path`，或在创建表空间时指定镜像文件），系统会自动读取镜像文件中的数据继续提供服务；
 
 - 若没有镜像文件，且 INI 参数 `PTX_ROLLBACK` 为 0：根据 INI 参数 `PAGE_CHECK_POLICY` 的取值确定处理策略，`PAGE_CHECK_POLICY` 为 0 时忽略损坏，`PAGE_CHECK_POLICY` 为 1 时系统主动 HALT；
 
@@ -21,4 +21,4 @@ title: PAGE_CHECK、PAGE_HASH_NAME
 
 `PAGE_CHECK` 在数据库创建成功后无法修改。可通过使用系统函数获取设置的页检查模式：`select SF_GET_PARA_VALUE(2, 'ENABLE_PAGE_CHECK');`。
 
-`PAGE_HASH_NAME` 在数据库创建成功后无法修改。可通过 `V$PARAMETER` 中的 NAME='`PAGE_CHECK_ID`'查看设置的页检查 HASH 算法 ID，进而通过算法 ID 获取算法名：`SELECT CYT_NAME FROM V$CIPHERS WHERE CYT_ID=(SELECT VALUE FROM V$PARAMETER WHERE NAME= 'PAGE_CHECK_ID');`，另外也可以通过 `V$DM_INI` 中的 PARA_NAME='`PAGE_CHECK_ID`'，或通过使用系统函数获取设置的页检查 HASH 算法 ID：`select SF_GET_PARA_VALUE(2,'PAGE_CHECK_ID');`。
+`PAGE_HASH_NAME` 在数据库创建成功后无法修改。可通过 `V$PARAMETER` 中的 `NAME='PAGE_CHECK_ID'` 查看设置的页检查 HASH 算法 ID，进而通过算法 ID 获取算法名：`SELECT CYT_NAME FROM V$CIPHERS WHERE CYT_ID=(SELECT VALUE FROM V$PARAMETER WHERE NAME= 'PAGE_CHECK_ID');`，另外也可以通过 `V$DM_INI` 中的 `PARA_NAME='PAGE_CHECK_ID'`，或通过使用系统函数获取设置的页检查 HASH 算法 ID：`select SF_GET_PARA_VALUE(2,'PAGE_CHECK_ID');`。
