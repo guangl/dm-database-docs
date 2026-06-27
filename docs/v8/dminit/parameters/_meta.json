@@ -1,0 +1,282 @@
+[
+  {
+    "type": "file",
+    "name": "ini_file",
+    "label": "INI_FILE"
+  },
+  {
+    "type": "file",
+    "name": "path",
+    "label": "PATH"
+  },
+  {
+    "type": "file",
+    "name": "ctl_path",
+    "label": "CTL_PATH"
+  },
+  {
+    "type": "file",
+    "name": "log_path",
+    "label": "LOG_PATH"
+  },
+  {
+    "type": "file",
+    "name": "extent_size",
+    "label": "EXTENT_SIZE"
+  },
+  {
+    "type": "file",
+    "name": "page_size",
+    "label": "PAGE_SIZE"
+  },
+  {
+    "type": "file",
+    "name": "log_size",
+    "label": "LOG_SIZE"
+  },
+  {
+    "type": "file",
+    "name": "case_sensitive",
+    "label": "CASE_SENSITIVE"
+  },
+  {
+    "type": "file",
+    "name": "charset",
+    "label": "CHARSET/UNICODE_FLAG"
+  },
+  {
+    "type": "file",
+    "name": "sec_priv_mode",
+    "label": "SEC_PRIV_MODE"
+  },
+  {
+    "type": "file",
+    "name": "sysdba_pwd",
+    "label": "SYSDBA_PWD"
+  },
+  {
+    "type": "file",
+    "name": "sysauditor_pwd",
+    "label": "SYSAUDITOR_PWD"
+  },
+  {
+    "type": "file",
+    "name": "db_name",
+    "label": "DB_NAME"
+  },
+  {
+    "type": "file",
+    "name": "instance_name",
+    "label": "INSTANCE_NAME"
+  },
+  {
+    "type": "file",
+    "name": "port_num",
+    "label": "PORT_NUM"
+  },
+  {
+    "type": "file",
+    "name": "buffer",
+    "label": "BUFFER"
+  },
+  {
+    "type": "file",
+    "name": "time_zone",
+    "label": "TIME_ZONE"
+  },
+  {
+    "type": "file",
+    "name": "page_check",
+    "label": "PAGE_CHECK、PAGE_HASH_NAME"
+  },
+  {
+    "type": "file",
+    "name": "external_cipher_name",
+    "label": "EXTERNAL_CIPHER_NAME、EXTERNAL_HASH_NAME、EXTERNAL_CRYPTO_NAME"
+  },
+  {
+    "type": "file",
+    "name": "rlog_encrypt_name",
+    "label": "RLOG_ENCRYPT_NAME"
+  },
+  {
+    "type": "file",
+    "name": "rlog_postfix_name",
+    "label": "RLOG_POSTFIX_NAME"
+  },
+  {
+    "type": "file",
+    "name": "usbkey_pin",
+    "label": "USBKEY_PIN"
+  },
+  {
+    "type": "file",
+    "name": "page_enc_slice_size",
+    "label": "PAGE_ENC_SLICE_SIZE"
+  },
+  {
+    "type": "file",
+    "name": "encrypt_name",
+    "label": "ENCRYPT_NAME"
+  },
+  {
+    "type": "file",
+    "name": "blank_pad_mode",
+    "label": "BLANK_PAD_MODE"
+  },
+  {
+    "type": "file",
+    "name": "system_mirror_path",
+    "label": "SYSTEM_MIRROR_PATH"
+  },
+  {
+    "type": "file",
+    "name": "main_mirror_path",
+    "label": "MAIN_MIRROR_PATH"
+  },
+  {
+    "type": "file",
+    "name": "roll_mirror_path",
+    "label": "ROLL_MIRROR_PATH"
+  },
+  {
+    "type": "file",
+    "name": "mal_flag",
+    "label": "MAL_FLAG"
+  },
+  {
+    "type": "file",
+    "name": "arch_flag",
+    "label": "ARCH_FLAG"
+  },
+  {
+    "type": "file",
+    "name": "mpp_flag",
+    "label": "MPP_FLAG"
+  },
+  {
+    "type": "file",
+    "name": "control",
+    "label": "CONTROL"
+  },
+  {
+    "type": "file",
+    "name": "auto_overwrite",
+    "label": "AUTO_OVERWRITE"
+  },
+  {
+    "type": "file",
+    "name": "use_new_hash",
+    "label": "USE_NEW_HASH"
+  },
+  {
+    "type": "file",
+    "name": "elog_path",
+    "label": "ELOG_PATH"
+  },
+  {
+    "type": "file",
+    "name": "ap_port_num",
+    "label": "AP_PORT_NUM"
+  },
+  {
+    "type": "file",
+    "name": "huge_with_delta",
+    "label": "HUGE_WITH_DELTA"
+  },
+  {
+    "type": "file",
+    "name": "rlog_gen_for_huge",
+    "label": "RLOG_GEN_FOR_HUGE"
+  },
+  {
+    "type": "file",
+    "name": "pseg_mgr_flag",
+    "label": "PSEG_MGR_FLAG"
+  },
+  {
+    "type": "file",
+    "name": "char_fix_storage",
+    "label": "CHAR_FIX_STORAGE"
+  },
+  {
+    "type": "file",
+    "name": "sql_log_forbid",
+    "label": "SQL_LOG_FORBID"
+  },
+  {
+    "type": "file",
+    "name": "dpc_mode",
+    "label": "DPC_MODE"
+  },
+  {
+    "type": "file",
+    "name": "syssso_pwd",
+    "label": "SYSSSO_PWD"
+  },
+  {
+    "type": "file",
+    "name": "sysdbo_pwd",
+    "label": "SYSDBO_PWD"
+  },
+  {
+    "type": "file",
+    "name": "priv_flag",
+    "label": "PRIV_FLAG"
+  },
+  {
+    "type": "file",
+    "name": "main_dbf_path",
+    "label": "MAIN_DBF_PATH"
+  },
+  {
+    "type": "file",
+    "name": "system_dbf_path",
+    "label": "SYSTEM_DBF_PATH"
+  },
+  {
+    "type": "file",
+    "name": "roll_dbf_path",
+    "label": "ROLL_DBF_PATH"
+  },
+  {
+    "type": "file",
+    "name": "temp_dbf_path",
+    "label": "TEMP_DBF_PATH"
+  },
+  {
+    "type": "file",
+    "name": "use_db_name",
+    "label": "USE_DB_NAME"
+  },
+  {
+    "type": "file",
+    "name": "enable_mac",
+    "label": "ENABLE_MAC"
+  },
+  {
+    "type": "file",
+    "name": "random_crypto",
+    "label": "RANDOM_CRYPTO"
+  },
+  {
+    "type": "file",
+    "name": "auto_adj_para",
+    "label": "AUTO_ADJ_PARA"
+  },
+  {
+    "type": "file",
+    "name": "auto_adj_cpus",
+    "label": "AUTO_ADJ_CPUS"
+  },
+  {
+    "type": "file",
+    "name": "auto_adj_mem",
+    "label": "AUTO_ADJ_MEM"
+  },
+  {
+    "type": "file",
+    "name": "help",
+    "label": "HELP"
+  }
+]
