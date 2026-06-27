@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="railroad-diagram" width="589" height="102" viewBox="0 0 589 102">
+<style>.railroad-diagram { background: transparent; }
+.railroad-diagram path { stroke-width: 2; stroke: #374151; fill: none; }
+.railroad-diagram text { font: bold 13px monospace; text-anchor: middle; fill: #111827; }
+.railroad-diagram text.comment { font: italic 12px monospace; fill: #6b7280; }
+.railroad-diagram rect { stroke-width: 2; stroke: #374151; fill: #f3f4f6; }</style>
+<g transform="translate(.5 .5)">
+<path d="M 20 31 v 20 m 10 -20 v 20 m -10 -10 h 20.5"></path>
+<path d="M40 41h10"></path>
+<g>
+<path d="M50 41h0"></path>
+<path d="M118 41h0"></path>
+<rect x="50" y="30" width="68" height="22" rx="10" ry="10"></rect>
+<text x="84" y="45">DEVICE</text>
+</g>
+<path d="M118 41h10"></path>
+<path d="M128 41h10"></path>
+<g>
+<path d="M138 41h0"></path>
+<path d="M190 41h0"></path>
+<rect x="138" y="30" width="52" height="22" rx="10" ry="10"></rect>
+<text x="164" y="45">TYPE</text>
+</g>
+<path d="M190 41h10"></path>
+<g>
+<path d="M200 41h0"></path>
+<path d="M356 41h0"></path>
+<path d="M200 41h20"></path>
+<g>
+<path d="M220 41h0"></path>
+<path d="M336 41h0"></path>
+<path d="M220 41h10"></path>
+<g>
+<path d="M230 41h0"></path>
+<path d="M282 41h0"></path>
+<rect x="230" y="30" width="52" height="22" rx="10" ry="10"></rect>
+<text x="256" y="45">DISK</text>
+</g>
+<path d="M282 41h10"></path>
+<path d="M292 41h10"></path>
+<g>
+<path d="M302 41h0"></path>
+<path d="M326 41h0"></path>
+<text x="314" y="46" class="comment">默认</text>
+</g>
+<path d="M326 41h10"></path>
+</g>
+<path d="M336 41h20"></path>
+<path d="M200 41a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M220 71h32"></path>
+<path d="M304 71h32"></path>
+<rect x="252" y="60" width="52" height="22" rx="10" ry="10"></rect>
+<text x="278" y="75">TAPE</text>
+</g>
+<path d="M336 71a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+</g>
+<g>
+<path d="M356 41h0"></path>
+<path d="M548 41h0"></path>
+<path d="M356 41a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M376 21h152"></path>
+</g>
+<path d="M528 21a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M356 41h20"></path>
+<g>
+<path d="M376 41h0"></path>
+<path d="M528 41h0"></path>
+<path d="M376 41h10"></path>
+<g>
+<path d="M386 41h0"></path>
+<path d="M446 41h0"></path>
+<rect x="386" y="30" width="60" height="22" rx="10" ry="10"></rect>
+<text x="416" y="45">PARMS</text>
+</g>
+<path d="M446 41h10"></path>
+<path d="M456 41h10"></path>
+<g>
+<path d="M466 41h0"></path>
+<path d="M518 41h0"></path>
+<rect x="466" y="30" width="52" height="22"></rect>
+<text x="492" y="45">介质参数</text>
+</g>
+<path d="M518 41h10"></path>
+</g>
+<path d="M528 41h20"></path>
+</g>
+<path d="M 548 41 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

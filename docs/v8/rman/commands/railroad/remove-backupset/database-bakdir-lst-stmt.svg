@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="railroad-diagram" width="629" height="182" viewBox="0 0 629 182">
+<style>.railroad-diagram { background: transparent; }
+.railroad-diagram path { stroke-width: 2; stroke: #374151; fill: none; }
+.railroad-diagram text { font: bold 13px monospace; text-anchor: middle; fill: #111827; }
+.railroad-diagram text.comment { font: italic 12px monospace; fill: #6b7280; }
+.railroad-diagram rect { stroke-width: 2; stroke: #374151; fill: #f3f4f6; }</style>
+<g transform="translate(.5 .5)">
+<path d="M 20 21 v 20 m 10 -20 v 20 m -10 -10 h 20.5"></path>
+<g>
+<path d="M40 31h0"></path>
+<path d="M588 31h0"></path>
+<path d="M40 31h20"></path>
+<g>
+<path d="M60 31h150"></path>
+<path d="M418 31h150"></path>
+<path d="M210 31h10"></path>
+<g>
+<path d="M220 31h0"></path>
+<path d="M304 31h0"></path>
+<rect x="220" y="20" width="84" height="22" rx="10" ry="10"></rect>
+<text x="262" y="35">DATABASE</text>
+</g>
+<path d="M304 31h10"></path>
+<path d="M314 31h10"></path>
+<g>
+<path d="M324 31h0"></path>
+<path d="M408 31h0"></path>
+<rect x="324" y="20" width="84" height="22"></rect>
+<text x="366" y="35">INI&#95;PATH</text>
+</g>
+<path d="M408 31h10"></path>
+</g>
+<path d="M568 31h20"></path>
+<path d="M40 31a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M60 61h104"></path>
+<path d="M464 61h104"></path>
+<path d="M164 61h10"></path>
+<g>
+<path d="M174 61h0"></path>
+<path d="M226 61h0"></path>
+<rect x="174" y="50" width="52" height="22" rx="10" ry="10"></rect>
+<text x="200" y="65">WITH</text>
+</g>
+<path d="M226 61h10"></path>
+<path d="M236 61h10"></path>
+<g>
+<path d="M246 61h0"></path>
+<path d="M338 61h0"></path>
+<rect x="246" y="50" width="92" height="22" rx="10" ry="10"></rect>
+<text x="292" y="65">BACKUPDIR</text>
+</g>
+<path d="M338 61h10"></path>
+<path d="M348 61h10"></path>
+<g>
+<path d="M358 61h0"></path>
+<path d="M454 61h0"></path>
+<path d="M358 61h10"></path>
+<g>
+<path d="M368 61h0"></path>
+<path d="M444 61h0"></path>
+<rect x="368" y="50" width="76" height="22"></rect>
+<text x="406" y="65">备份集搜索目录</text>
+</g>
+<path d="M444 61h10"></path>
+<path d="M368 61a10 10 0 0 0 -10 10v10a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M368 91h24"></path>
+<path d="M420 91h24"></path>
+<rect x="392" y="80" width="28" height="22" rx="10" ry="10"></rect>
+<text x="406" y="95">,</text>
+</g>
+<path d="M444 91a10 10 0 0 0 10 -10v-10a10 10 0 0 0 -10 -10"></path>
+</g>
+<path d="M454 61h10"></path>
+</g>
+<path d="M568 61a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+<path d="M40 31a10 10 0 0 1 10 10v70a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M60 121h0"></path>
+<path d="M568 121h0"></path>
+<path d="M60 121h10"></path>
+<g>
+<path d="M70 121h0"></path>
+<path d="M154 121h0"></path>
+<rect x="70" y="110" width="84" height="22" rx="10" ry="10"></rect>
+<text x="112" y="125">DATABASE</text>
+</g>
+<path d="M154 121h10"></path>
+<path d="M164 121h10"></path>
+<g>
+<path d="M174 121h0"></path>
+<path d="M258 121h0"></path>
+<rect x="174" y="110" width="84" height="22"></rect>
+<text x="216" y="125">INI&#95;PATH</text>
+</g>
+<path d="M258 121h10"></path>
+<path d="M268 121h10"></path>
+<g>
+<path d="M278 121h0"></path>
+<path d="M330 121h0"></path>
+<rect x="278" y="110" width="52" height="22" rx="10" ry="10"></rect>
+<text x="304" y="125">WITH</text>
+</g>
+<path d="M330 121h10"></path>
+<path d="M340 121h10"></path>
+<g>
+<path d="M350 121h0"></path>
+<path d="M442 121h0"></path>
+<rect x="350" y="110" width="92" height="22" rx="10" ry="10"></rect>
+<text x="396" y="125">BACKUPDIR</text>
+</g>
+<path d="M442 121h10"></path>
+<path d="M452 121h10"></path>
+<g>
+<path d="M462 121h0"></path>
+<path d="M558 121h0"></path>
+<path d="M462 121h10"></path>
+<g>
+<path d="M472 121h0"></path>
+<path d="M548 121h0"></path>
+<rect x="472" y="110" width="76" height="22"></rect>
+<text x="510" y="125">备份集搜索目录</text>
+</g>
+<path d="M548 121h10"></path>
+<path d="M472 121a10 10 0 0 0 -10 10v10a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M472 151h24"></path>
+<path d="M524 151h24"></path>
+<rect x="496" y="140" width="28" height="22" rx="10" ry="10"></rect>
+<text x="510" y="155">,</text>
+</g>
+<path d="M548 151a10 10 0 0 0 10 -10v-10a10 10 0 0 0 -10 -10"></path>
+</g>
+<path d="M558 121h10"></path>
+</g>
+<path d="M568 121a10 10 0 0 0 10 -10v-70a10 10 0 0 1 10 -10"></path>
+</g>
+<path d="M 588 31 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

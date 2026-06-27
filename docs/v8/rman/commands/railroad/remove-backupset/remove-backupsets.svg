@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="railroad-diagram" width="809" height="188" viewBox="0 0 809 188">
+<style>.railroad-diagram { background: transparent; }
+.railroad-diagram path { stroke-width: 2; stroke: #374151; fill: none; }
+.railroad-diagram text { font: bold 13px monospace; text-anchor: middle; fill: #111827; }
+.railroad-diagram text.comment { font: italic 12px monospace; fill: #6b7280; }
+.railroad-diagram rect { stroke-width: 2; stroke: #374151; fill: #f3f4f6; }</style>
+<g transform="translate(0,0)"><g transform="translate(.5 .5)">
+<path d="M 20 31 v 20 m 0 -10 h 20.5"></path>
+<path d="M40 41h10"></path>
+<g>
+<path d="M50 41h0"></path>
+<path d="M118 41h0"></path>
+<rect x="50" y="30" width="68" height="22" rx="10" ry="10"></rect>
+<text x="84" y="45">REMOVE</text>
+</g>
+<path d="M118 41h10"></path>
+<g>
+<path d="M128 41h0"></path>
+<path d="M228 41h0"></path>
+<path d="M128 41a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M148 21h60"></path>
+</g>
+<path d="M208 21a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M128 41h20"></path>
+<g>
+<path d="M148 41h0"></path>
+<path d="M208 41h0"></path>
+<rect x="148" y="30" width="60" height="22"></rect>
+<text x="178" y="45">备份集类型</text>
+</g>
+<path d="M208 41h20"></path>
+</g>
+<path d="M228 41h10"></path>
+<g>
+<path d="M238 41h0"></path>
+<path d="M338 41h0"></path>
+<rect x="238" y="30" width="100" height="22" rx="10" ry="10"></rect>
+<text x="288" y="45">BACKUPSETS</text>
+</g>
+<path d="M338 41h10"></path>
+<g>
+<path d="M348 41h0"></path>
+<path d="M536 41h0"></path>
+<path d="M348 41a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M368 21h148"></path>
+</g>
+<path d="M516 21a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M348 41h20"></path>
+<g>
+<path d="M368 41h0"></path>
+<path d="M516 41h0"></path>
+<rect x="368" y="30" width="148" height="22"></rect>
+<text x="442" y="45">device&#95;type&#95;stmt</text>
+</g>
+<path d="M516 41h20"></path>
+</g>
+<path d="M536 41h10"></path>
+<g>
+<path d="M546 41h0"></path>
+<path d="M758 41h0"></path>
+<rect x="546" y="30" width="212" height="22"></rect>
+<text x="652" y="45">database&#95;bakdir&#95;lst&#95;stmt</text>
+</g>
+<path d="M758 41h10"></path>
+<path d="M 768 41 h 20 m 0 -10 v 20"></path>
+</g>
+</g>
+<g transform="translate(0,86)"><g transform="translate(.5 .5)">
+<path d="M 20 31 v 20 m 0 -10 h 20.5"></path>
+<g>
+<path d="M40 41h0"></path>
+<path d="M352 41h0"></path>
+<path d="M40 41a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M60 21h272"></path>
+</g>
+<path d="M332 21a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M40 41h20"></path>
+<g>
+<path d="M60 41h0"></path>
+<path d="M332 41h0"></path>
+<path d="M60 41h20"></path>
+<g>
+<path d="M80 41h0"></path>
+<path d="M312 41h0"></path>
+<path d="M80 41h10"></path>
+<g>
+<path d="M90 41h0"></path>
+<path d="M150 41h0"></path>
+<rect x="90" y="30" width="60" height="22" rx="10" ry="10"></rect>
+<text x="120" y="45">UNTIL</text>
+</g>
+<path d="M150 41h10"></path>
+<path d="M160 41h10"></path>
+<g>
+<path d="M170 41h0"></path>
+<path d="M222 41h0"></path>
+<rect x="170" y="30" width="52" height="22" rx="10" ry="10"></rect>
+<text x="196" y="45">TIME</text>
+</g>
+<path d="M222 41h10"></path>
+<path d="M232 41h10"></path>
+<g>
+<path d="M242 41h0"></path>
+<path d="M302 41h0"></path>
+<rect x="242" y="30" width="60" height="22"></rect>
+<text x="272" y="45">截止时间串</text>
+</g>
+<path d="M302 41h10"></path>
+</g>
+<path d="M312 41h20"></path>
+<path d="M60 41a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M80 71h32"></path>
+<path d="M280 71h32"></path>
+<path d="M112 71h10"></path>
+<g>
+<path d="M122 71h0"></path>
+<path d="M190 71h0"></path>
+<rect x="122" y="60" width="68" height="22" rx="10" ry="10"></rect>
+<text x="156" y="75">BEFORE</text>
+</g>
+<path d="M190 71h10"></path>
+<path d="M200 71h10"></path>
+<g>
+<path d="M210 71h0"></path>
+<path d="M270 71h0"></path>
+<rect x="210" y="60" width="60" height="22"></rect>
+<text x="240" y="75">n&#95;day</text>
+</g>
+<path d="M270 71h10"></path>
+</g>
+<path d="M312 71a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+</g>
+<path d="M332 41h20"></path>
+</g>
+<path d="M 352 41 h 20 m 0 -10 v 20"></path>
+</g>
+</g>
+</svg>

@@ -2,9 +2,9 @@
 title: Linux 下的卸载
 ---
 
-# Linux（Unix）下 DM 的卸载
+# Linux（Unix）下达梦数据库的卸载
 
-DM 在 Linux 下提供命令行卸载和图形化卸载两种方式，卸载程序均为全部卸载。推荐优先使用命令行卸载。
+达梦数据库在 Linux 下提供命令行卸载和图形化卸载两种方式，卸载程序均为全部卸载。推荐优先使用命令行卸载。
 
 ## 命令行卸载
 
@@ -21,7 +21,7 @@ cd $DM_INSTALL_PATH
 
 ![卸载](./images/install-uninstall/图2.54-卸载.png)
 
-![提示使用 root 用户执行命令](./images/install-uninstall/图2.55-提示使用root用户执行命令.png)
+![提示使用 `root` 用户执行命令](./images/install-uninstall/图2.55-提示使用root用户执行命令.png)
 
 ## 图形化卸载
 
@@ -40,7 +40,7 @@ cd $DM_INSTALL_PATH
 
 ### 卸载小结
 
-显示 DM 的卸载目录信息，点击"卸载"开始卸载。
+显示达梦数据库的卸载目录信息，点击"卸载"开始卸载。
 
 ![准备卸载](./images/install-uninstall/图2.49-准备卸载.jpg)
 

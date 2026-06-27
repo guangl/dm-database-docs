@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="railroad-diagram" width="501" height="102" viewBox="0 0 501 102">
+<style>.railroad-diagram { background: transparent; }
+.railroad-diagram path { stroke-width: 2; stroke: #374151; fill: none; }
+.railroad-diagram text { font: bold 13px monospace; text-anchor: middle; fill: #111827; }
+.railroad-diagram text.comment { font: italic 12px monospace; fill: #6b7280; }
+.railroad-diagram rect { stroke-width: 2; stroke: #374151; fill: #f3f4f6; }</style>
+<g transform="translate(.5 .5)">
+<path d="M 20 31 v 20 m 10 -20 v 20 m -10 -10 h 20.5"></path>
+<path d="M40 41h10"></path>
+<g>
+<path d="M50 41h0"></path>
+<path d="M86 41h0"></path>
+<rect x="50" y="30" width="36" height="22" rx="10" ry="10"></rect>
+<text x="68" y="45">TO</text>
+</g>
+<path d="M86 41h10"></path>
+<path d="M96 41h10"></path>
+<g>
+<path d="M106 41h0"></path>
+<path d="M174 41h0"></path>
+<rect x="106" y="30" width="68" height="22"></rect>
+<text x="140" y="45">输出文件路径</text>
+</g>
+<path d="M174 41h10"></path>
+<g>
+<path d="M184 41h0"></path>
+<path d="M460 41h0"></path>
+<path d="M184 41a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M204 21h236"></path>
+</g>
+<path d="M440 21a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M184 41h20"></path>
+<g>
+<path d="M204 41h0"></path>
+<path d="M440 41h0"></path>
+<path d="M204 41h10"></path>
+<g>
+<path d="M214 41h0"></path>
+<path d="M282 41h0"></path>
+<rect x="214" y="30" width="68" height="22" rx="10" ry="10"></rect>
+<text x="248" y="45">FORMAT</text>
+</g>
+<path d="M282 41h10"></path>
+<g>
+<path d="M292 41h0"></path>
+<path d="M440 41h0"></path>
+<path d="M292 41h20"></path>
+<g>
+<path d="M312 41h0"></path>
+<path d="M420 41h0"></path>
+<path d="M312 41h10"></path>
+<g>
+<path d="M322 41h0"></path>
+<path d="M366 41h0"></path>
+<rect x="322" y="30" width="44" height="22" rx="10" ry="10"></rect>
+<text x="344" y="45">TXT</text>
+</g>
+<path d="M366 41h10"></path>
+<path d="M376 41h10"></path>
+<g>
+<path d="M386 41h0"></path>
+<path d="M410 41h0"></path>
+<text x="398" y="46" class="comment">默认</text>
+</g>
+<path d="M410 41h10"></path>
+</g>
+<path d="M420 41h20"></path>
+<path d="M292 41a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M312 71h32"></path>
+<path d="M388 71h32"></path>
+<rect x="344" y="60" width="44" height="22" rx="10" ry="10"></rect>
+<text x="366" y="75">XML</text>
+</g>
+<path d="M420 71a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+</g>
+</g>
+<path d="M440 41h20"></path>
+</g>
+<path d="M 460 41 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

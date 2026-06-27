@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="railroad-diagram" width="917" height="158" viewBox="0 0 917 158">
+<style>.railroad-diagram { background: transparent; }
+.railroad-diagram path { stroke-width: 2; stroke: #374151; fill: none; }
+.railroad-diagram text { font: bold 13px monospace; text-anchor: middle; fill: #111827; }
+.railroad-diagram text.comment { font: italic 12px monospace; fill: #6b7280; }
+.railroad-diagram rect { stroke-width: 2; stroke: #374151; fill: #f3f4f6; }</style>
+<g transform="translate(0,0)"><g transform="translate(.5 .5)">
+<path d="M 20 31 v 20 m 0 -10 h 20.5"></path>
+<path d="M40 41h10"></path>
+<g>
+<path d="M50 41h0"></path>
+<path d="M102 41h0"></path>
+<rect x="50" y="30" width="52" height="22" rx="10" ry="10"></rect>
+<text x="76" y="45">SHOW</text>
+</g>
+<path d="M102 41h10"></path>
+<path d="M112 41h10"></path>
+<g>
+<path d="M122 41h0"></path>
+<path d="M214 41h0"></path>
+<rect x="122" y="30" width="92" height="22" rx="10" ry="10"></rect>
+<text x="168" y="45">BACKUPSET</text>
+</g>
+<path d="M214 41h10"></path>
+<path d="M224 41h10"></path>
+<g>
+<path d="M234 41h0"></path>
+<path d="M294 41h0"></path>
+<rect x="234" y="30" width="60" height="22"></rect>
+<text x="264" y="45">备份集目录</text>
+</g>
+<path d="M294 41h10"></path>
+<g>
+<path d="M304 41h0"></path>
+<path d="M492 41h0"></path>
+<path d="M304 41a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M324 21h148"></path>
+</g>
+<path d="M472 21a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M304 41h20"></path>
+<g>
+<path d="M324 41h0"></path>
+<path d="M472 41h0"></path>
+<rect x="324" y="30" width="148" height="22"></rect>
+<text x="398" y="45">device&#95;type&#95;stmt</text>
+</g>
+<path d="M472 41h20"></path>
+</g>
+<g>
+<path d="M492 41h0"></path>
+<path d="M624 41h0"></path>
+<path d="M492 41a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M512 21h92"></path>
+</g>
+<path d="M604 21a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M492 41h20"></path>
+<g>
+<path d="M512 41h0"></path>
+<path d="M604 41h0"></path>
+<rect x="512" y="30" width="92" height="22" rx="10" ry="10"></rect>
+<text x="558" y="45">RECURSIVE</text>
+</g>
+<path d="M604 41h20"></path>
+</g>
+<g>
+<path d="M624 41h0"></path>
+<path d="M876 41h0"></path>
+<path d="M624 41a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M644 21h212"></path>
+</g>
+<path d="M856 21a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M624 41h20"></path>
+<g>
+<path d="M644 41h0"></path>
+<path d="M856 41h0"></path>
+<rect x="644" y="30" width="212" height="22"></rect>
+<text x="750" y="45">database&#95;bakdir&#95;lst&#95;stmt</text>
+</g>
+<path d="M856 41h20"></path>
+</g>
+<path d="M 876 41 h 20 m 0 -10 v 20"></path>
+</g>
+</g>
+<g transform="translate(0,86)"><g transform="translate(.5 .5)">
+<path d="M 20 31 v 20 m 0 -10 h 20.5"></path>
+<g>
+<path d="M40 41h0"></path>
+<path d="M212 41h0"></path>
+<path d="M40 41a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M60 21h132"></path>
+</g>
+<path d="M192 21a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M40 41h20"></path>
+<g>
+<path d="M60 41h0"></path>
+<path d="M192 41h0"></path>
+<rect x="60" y="30" width="132" height="22"></rect>
+<text x="126" y="45">info&#95;type&#95;stmt</text>
+</g>
+<path d="M192 41h20"></path>
+</g>
+<g>
+<path d="M212 41h0"></path>
+<path d="M368 41h0"></path>
+<path d="M212 41a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M232 21h116"></path>
+</g>
+<path d="M348 21a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M212 41h20"></path>
+<g>
+<path d="M232 41h0"></path>
+<path d="M348 41h0"></path>
+<rect x="232" y="30" width="116" height="22"></rect>
+<text x="290" y="45">to&#95;file&#95;stmt</text>
+</g>
+<path d="M348 41h20"></path>
+</g>
+<path d="M 368 41 h 20 m 0 -10 v 20"></path>
+</g>
+</g>
+</svg>
