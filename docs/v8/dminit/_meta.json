@@ -1,0 +1,38 @@
+[
+  {
+    "type": "file",
+    "name": "introduction",
+    "label": "功能简介"
+  },
+  {
+    "type": "section-header",
+    "label": "dminit"
+  },
+  {
+    "type": "file",
+    "name": "usage",
+    "label": "使用 dminit"
+  },
+  {
+    "type": "file",
+    "name": "advanced-topics",
+    "label": "dminit 高级主题"
+  },
+  {
+    "type": "section-header",
+    "label": "参数"
+  },
+  {
+    "type": "file",
+    "name": "view-parameters",
+    "label": "查看 dminit 参数"
+  },
+  {
+    "type": "dir",
+    "name": "parameters",
+    "label": "dminit 参数详解",
+    "collapsible": true,
+    "collapsed": true,
+    "overviewHeaders": [1]
+  }
+]

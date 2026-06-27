@@ -27,6 +27,11 @@
         "text": "dmfldr",
         "link": "/dmfldr/introduction",
         "activeMatch": "^/dmfldr/"
+      },
+      {
+        "text": "dminit",
+        "link": "/dminit/introduction",
+        "activeMatch": "^/dminit/"
       }
     ]
   }
