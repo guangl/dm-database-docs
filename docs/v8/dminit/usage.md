@@ -39,4 +39,4 @@ db version: 0x7000a
 create dm database success. 2020-07-08 13:28:23
 ```
 
-此时在 `/home/test/dmdbms` 目录下会出现一个 DAMENG 文件夹，内容包含初始数据库 DAMENG 的相关文件和 DM 数据库启动所必须的配置文件 dm.ini。
+此时在 `/home/test/dmdbms` 目录下会出现一个 DAMENG 文件夹，内容包含初始数据库 DAMENG 的相关文件和达梦数据库启动所必须的配置文件 dm.ini。
