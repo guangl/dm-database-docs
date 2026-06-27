@@ -1,0 +1,50 @@
+[
+  {
+    "type": "file",
+    "name": "introduction",
+    "label": "功能简介"
+  },
+  {
+    "type": "section-header",
+    "label": "dmrman"
+  },
+  {
+    "type": "file",
+    "name": "usage",
+    "label": "使用 dmrman"
+  },
+  {
+    "type": "file",
+    "name": "actual-combat",
+    "label": "dmrman 实战"
+  },
+  {
+    "type": "file",
+    "name": "configure",
+    "label": "配置 dmrman"
+  },
+  {
+    "type": "section-header",
+    "label": "命令参考"
+  },
+  {
+    "type": "dir",
+    "name": "commands",
+    "label": "命令参考",
+    "collapsible": true,
+    "collapsed": true,
+    "overviewHeaders": [1]
+  },
+  {
+    "type": "section-header",
+    "label": "问题"
+  },
+  {
+    "type": "dir",
+    "name": "faq",
+    "label": "常见问题",
+    "collapsible": true,
+    "collapsed": true,
+    "overviewHeaders": [1]
+  }
+]

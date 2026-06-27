@@ -1,0 +1,62 @@
+[
+  {
+    "type": "file",
+    "name": "backup-database",
+    "label": "BACKUP DATABASE"
+  },
+  {
+    "type": "file",
+    "name": "backupset",
+    "label": "SHOW BACKUPSET"
+  },
+  {
+    "type": "file",
+    "name": "check-backupset",
+    "label": "CHECK BACKUPSET"
+  },
+  {
+    "type": "file",
+    "name": "remove-backupset",
+    "label": "REMOVE BACKUPSET"
+  },
+  {
+    "type": "file",
+    "name": "merge-database",
+    "label": "MERGE DATABASE"
+  },
+  {
+    "type": "file",
+    "name": "restore-database",
+    "label": "RESTORE DATABASE"
+  },
+  {
+    "type": "file",
+    "name": "recover-database",
+    "label": "RECOVER DATABASE"
+  },
+  {
+    "type": "file",
+    "name": "restore-tablespace",
+    "label": "RESTORE TABLESPACE"
+  },
+  {
+    "type": "file",
+    "name": "recover-tablespace",
+    "label": "RECOVER TABLESPACE"
+  },
+  {
+    "type": "file",
+    "name": "restore-archive-log",
+    "label": "RESTORE ARCHIVE LOG"
+  },
+  {
+    "type": "file",
+    "name": "repair-archive",
+    "label": "REPAIR ARCHIVE LOG"
+  },
+  {
+    "type": "file",
+    "name": "backupset-list-log",
+    "label": "查看操作日志"
+  }
+]

@@ -45,7 +45,9 @@ export default defineConfig({
         {
           tag: 'style',
           children:
-            'html.dark img[alt="语法图"] { filter: invert(1) hue-rotate(180deg); }',
+            'html.dark img[alt="语法图"] { filter: invert(1) hue-rotate(180deg); } ' +
+            'img[alt="语法图"] { max-width: none; width: auto; display: block; } ' +
+            'p:has(> img[alt="语法图"]) { display: block; max-width: 100%; overflow-x: auto; }',
         },
       ],
     },

@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="railroad-diagram" width="865" height="158" viewBox="0 0 865 158">
+<style>.railroad-diagram { background: transparent; }
+.railroad-diagram path { stroke-width: 2; stroke: #374151; fill: none; }
+.railroad-diagram text { font: bold 13px monospace; text-anchor: middle; fill: #111827; }
+.railroad-diagram text.comment { font: italic 12px monospace; fill: #6b7280; }
+.railroad-diagram rect { stroke-width: 2; stroke: #374151; fill: #f3f4f6; }</style>
+<g transform="translate(0,0)"><g transform="translate(.5 .5)">
+<path d="M 20 31 v 20 m 0 -10 h 20.5"></path>
+<path d="M40 41h10"></path>
+<g>
+<path d="M50 41h0"></path>
+<path d="M102 41h0"></path>
+<rect x="50" y="30" width="52" height="22" rx="10" ry="10"></rect>
+<text x="76" y="45">SHOW</text>
+</g>
+<path d="M102 41h10"></path>
+<path d="M112 41h10"></path>
+<g>
+<path d="M122 41h0"></path>
+<path d="M222 41h0"></path>
+<rect x="122" y="30" width="100" height="22" rx="10" ry="10"></rect>
+<text x="172" y="45">BACKUPSETS</text>
+</g>
+<path d="M222 41h10"></path>
+<g>
+<path d="M232 41h0"></path>
+<path d="M420 41h0"></path>
+<path d="M232 41a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M252 21h148"></path>
+</g>
+<path d="M400 21a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M232 41h20"></path>
+<g>
+<path d="M252 41h0"></path>
+<path d="M400 41h0"></path>
+<rect x="252" y="30" width="148" height="22"></rect>
+<text x="326" y="45">device&#95;type&#95;stmt</text>
+</g>
+<path d="M400 41h20"></path>
+</g>
+<path d="M420 41h10"></path>
+<g>
+<path d="M430 41h0"></path>
+<path d="M642 41h0"></path>
+<rect x="430" y="30" width="212" height="22"></rect>
+<text x="536" y="45">database&#95;bakdir&#95;lst&#95;stmt</text>
+</g>
+<path d="M642 41h10"></path>
+<g>
+<path d="M652 41h0"></path>
+<path d="M824 41h0"></path>
+<path d="M652 41a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M672 21h132"></path>
+</g>
+<path d="M804 21a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M652 41h20"></path>
+<g>
+<path d="M672 41h0"></path>
+<path d="M804 41h0"></path>
+<rect x="672" y="30" width="132" height="22"></rect>
+<text x="738" y="45">info&#95;type&#95;stmt</text>
+</g>
+<path d="M804 41h20"></path>
+</g>
+<path d="M 824 41 h 20 m 0 -10 v 20"></path>
+</g>
+</g>
+<g transform="translate(0,86)"><g transform="translate(.5 .5)">
+<path d="M 20 31 v 20 m 0 -10 h 20.5"></path>
+<g>
+<path d="M40 41h0"></path>
+<path d="M236 41h0"></path>
+<path d="M40 41a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M60 21h156"></path>
+</g>
+<path d="M216 21a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M40 41h20"></path>
+<g>
+<path d="M60 41h0"></path>
+<path d="M216 41h0"></path>
+<rect x="60" y="30" width="156" height="22"></rect>
+<text x="138" y="45">use&#95;db&#95;magic&#95;stmt</text>
+</g>
+<path d="M216 41h20"></path>
+</g>
+<g>
+<path d="M236 41h0"></path>
+<path d="M392 41h0"></path>
+<path d="M236 41a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M256 21h116"></path>
+</g>
+<path d="M372 21a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M236 41h20"></path>
+<g>
+<path d="M256 41h0"></path>
+<path d="M372 41h0"></path>
+<rect x="256" y="30" width="116" height="22"></rect>
+<text x="314" y="45">to&#95;file&#95;stmt</text>
+</g>
+<path d="M372 41h20"></path>
+</g>
+<path d="M 392 41 h 20 m 0 -10 v 20"></path>
+</g>
+</g>
+</svg>

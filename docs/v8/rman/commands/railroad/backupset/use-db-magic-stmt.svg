@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="railroad-diagram" width="353" height="62" viewBox="0 0 353 62">
+<style>.railroad-diagram { background: transparent; }
+.railroad-diagram path { stroke-width: 2; stroke: #374151; fill: none; }
+.railroad-diagram text { font: bold 13px monospace; text-anchor: middle; fill: #111827; }
+.railroad-diagram text.comment { font: italic 12px monospace; fill: #6b7280; }
+.railroad-diagram rect { stroke-width: 2; stroke: #374151; fill: #f3f4f6; }</style>
+<g transform="translate(.5 .5)">
+<path d="M 20 21 v 20 m 10 -20 v 20 m -10 -10 h 20.5"></path>
+<path d="M40 31h10"></path>
+<g>
+<path d="M50 31h0"></path>
+<path d="M94 31h0"></path>
+<rect x="50" y="20" width="44" height="22" rx="10" ry="10"></rect>
+<text x="72" y="35">USE</text>
+</g>
+<path d="M94 31h10"></path>
+<path d="M104 31h10"></path>
+<g>
+<path d="M114 31h0"></path>
+<path d="M198 31h0"></path>
+<rect x="114" y="20" width="84" height="22" rx="10" ry="10"></rect>
+<text x="156" y="35">DB&#95;MAGIC</text>
+</g>
+<path d="M198 31h10"></path>
+<path d="M208 31h10"></path>
+<g>
+<path d="M218 31h0"></path>
+<path d="M302 31h0"></path>
+<rect x="218" y="20" width="84" height="22"></rect>
+<text x="260" y="35">db&#95;magic</text>
+</g>
+<path d="M302 31h10"></path>
+<path d="M 312 31 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>
