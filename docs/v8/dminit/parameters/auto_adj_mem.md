@@ -2,7 +2,7 @@
 title: AUTO_ADJ_MEM
 ---
 
-指定数据库可用内存大小进行 INI 参数自动调优，`AUTO_ADJ_PARA` 打开才生效。最大取值为 8 位整数，单位：MB，缺省值为 0，默认使用当前机器 80% 的内存对于相关 INI 进行调优。可选参数。
+指定数据库可用内存大小进行 INI 参数自动调优，可选参数，`AUTO_ADJ_PARA` 打开才生效。最大取值为 8 位整数，单位为 MB，缺省值为 `0`，默认使用当前机器 80% 的内存对于相关 INI 进行调优。
 
 内存相关的优化参数有：`MEMORY_POOL`、`MEMORY_N_POOLS`、`MEMORY_TARGET`、`BUFFER`、`BUFFER_POOLS`、`RECYCLE`、`RECYCLE_POOLS`、`HJ_BUF_GLOBAL_SIZE`、`HJ_BUF_SIZE`、`HAGR_BUF_GLOBAL_SIZE`、`HAGR_BUF_SIZE`、`SORT_FLAG`、`SORT_BLK_SIZE`、`SORT_BUF_SIZE`、`SORT_BUF_GLOBAL_SIZE`、`RLOG_POOL_SIZE`、`CACHE_POOL_SIZE`、`DICT_BUF_SIZE`、`VM_POOL_TARGET`、`SESS_POOL_TARGET`、`MAX_SESSIONS`。
 
