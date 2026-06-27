@@ -17,7 +17,7 @@ title: PAGE_CHECK、PAGE_HASH_NAME
 
 对于无法报错处理的少部分情况（包括损坏的数据页是文件 0 号页、系统表空间数据页、文件系统 INODE 页或者描述页等），根据 INI 参数 `PAGE_CHECK_POLICY` 的取值确定处理策略，`PAGE_CHECK_POLICY` 为 0 时忽略损坏，`PAGE_CHECK_POLICY` 为 1 时系统主动 HALT；
 
-`PAGE_HASH_NAME` 用于设置页检查 HASH 算法。当且仅当 `PAGE_CHECK`=2 时，使用 `PAGE_HASH_NAME` 来指定用于页检查的 HASH 算法。HASH 算法可通过 `SELECT CYT_NAME FROM V$CIPHERS WHERE CYT_TYPE=4;`语法获取。
+`PAGE_HASH_NAME` 用于设置页检查 HASH 算法。当且仅当 `PAGE_CHECK`=2 时，使用 `PAGE_HASH_NAME` 来指定用于页检查的 HASH 算法。HASH 算法可通过 `SELECT CYT_NAME FROM V$CIPHERS WHERE CYT_TYPE=4;` 语法获取。
 
 `PAGE_CHECK` 在数据库创建成功后无法修改。可通过使用系统函数获取设置的页检查模式：`select SF_GET_PARA_VALUE(2, 'ENABLE_PAGE_CHECK');`。
 

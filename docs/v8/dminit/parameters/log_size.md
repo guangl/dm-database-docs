@@ -8,4 +8,4 @@ title: LOG_SIZE
 
 设置日志文件路径可以使用 `LOG_PATH` 参数。
 
-数据库创建成功后，可以在运行时使用 ALTER DATABASE 修改数据库语句增加日志文件的大小。可通过查询 `V$RLOGFILE` 的 RLOG_SIZE 列查看当前系统各日志文件的大小。
+数据库创建成功后，可以在运行时使用 `ALTER DATABASE` 修改数据库语句增加日志文件的大小。可通过查询 `V$RLOGFILE` 的 `RLOG_SIZE` 列查看当前系统各日志文件的大小。

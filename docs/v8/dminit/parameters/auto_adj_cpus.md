@@ -6,7 +6,7 @@ title: AUTO_ADJ_CPUS
 
 CPU 相关的优化参数有：`WORKER_THREADS`、`IO_THR_GROUPS`、`TASK_THREADS`。
 
-**表4.1 CPU核数相关INI调整策略表**
+**表 4.1 CPU 核数相关 INI 调整策略表**
 
 | CPU 核数 | <=8 | >8, <=64 | >64 |
 | --- | --- | --- | --- |

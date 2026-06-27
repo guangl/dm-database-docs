@@ -6,7 +6,7 @@ title: INI_FILE
 
 如果不指定该参数，那么 dminit 工具会直接生成一个新的 dm.ini 文件。如果指定了该参数但指定的 INI 文件不存在，那么 dminit 工具会报错无效的 INI 文件，同时生成一个新的 dm.ini 文件。
 
-例  指定现有/home/test/dmdbms 库中 dm.ini，给新创建的/home/dest/dmdbms 库使用。
+例 指定现有 `/home/test/dmdbms` 库中 dm.ini，给新创建的 `/home/dest/dmdbms` 库使用。
 
 ```plaintext
 ./dminit INI_FILE=/home/test/dmdbms/DAMENG/dm.ini PATH=/home/dest/dmdbms SYSDBA_PWD=DMdba_123 SYSAUDITOR_PWD=DMauditor_123

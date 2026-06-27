@@ -6,4 +6,4 @@ title: SYSTEM_MIRROR_PATH
 
 当 `PAGE_CHECK` 非 0 时，此参数才有意义。
 
-此参数在数据库创建成功后无法修改，可通过查询 `V$DATAFILE` 的 MIRROR_PATH 列查看此参数的设置值。
+此参数在数据库创建成功后无法修改，可通过查询 `V$DATAFILE` 的 `MIRROR_PATH` 列查看此参数的设置值。
