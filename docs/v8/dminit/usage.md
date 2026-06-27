@@ -20,10 +20,10 @@ dminit 如果没有带参数，系统会引导用户进行设置。
 
 参数、等号和值之间不能有空格，例如 `PAGE_SIZE=16`。
 
-HELP 参数的后面不用添加“=”号。
+`HELP` 参数的后面不用添加“=”号。
 :::
 
-例 初始化一个数据库，放在 `/home/test/dmdbms` 目录下，数据页 PAGE_SIZE 大小为 16K。以 SYSDBA_PWD 密码为“DMdba_123”、SYSAUDITOR_PWD 密码为“DMauditor_123”为例，实际运行中需要用户遵循参数限制自行设置密码。
+例 初始化一个数据库，放在 `/home/test/dmdbms` 目录下，数据页 `PAGE_SIZE` 大小为 16K。以 `SYSDBA_PWD` 密码为“DMdba_123”、`SYSAUDITOR_PWD` 密码为“DMauditor_123”为例，实际运行中需要用户遵循参数限制自行设置密码。
 
 ```bash
 ./dminit PATH=/home/test/dmdbms PAGE_SIZE=16 SYSDBA_PWD=DMdba_123 SYSAUDITOR_PWD=DMauditor_123

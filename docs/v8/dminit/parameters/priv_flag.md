@@ -8,4 +8,4 @@ title: PRIV_FLAG
 
 仅在安全版本下可见和可设置。
 
-此参数在数据库创建成功后无法修改，可通过查询 V$PARAMETER 或 V$DM_INI 中的 GLOBAL_PRIV_FLAG 参数名查看此参数的设置值，还可以通过使用系统函数获取此参数的设置值：select SF_GET_PARA_VALUE(2,'GLOBAL_PRIV_FLAG');。
+此参数在数据库创建成功后无法修改，可通过查询 `V$PARAMETER` 或 `V$DM_INI` 中的 `GLOBAL_PRIV_FLAG` 参数名查看此参数的设置值，还可以通过使用系统函数获取此参数的设置值：`select SF_GET_PARA_VALUE(2,'GLOBAL_PRIV_FLAG');`。

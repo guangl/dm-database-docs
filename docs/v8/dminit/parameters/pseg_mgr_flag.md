@@ -10,4 +10,4 @@ title: PSEG_MGR_FLAG
 
 配置为 0 和配置为 1 的降级策略有所不同，具体请咨询达梦技术服务人员。
 
-此参数在数据库创建成功后无法修改，可通过查询 V$PARAMETER 或 V$DM_INI 中的 PSEG_MGR_FLAG 参数名查看此参数的设置值，还可以通过使用系统函数获取此参数的设置值：select SF_GET_PARA_VALUE(2,'PSEG_MGR_FLAG');。
+此参数在数据库创建成功后无法修改，可通过查询 `V$PARAMETER` 或 `V$DM_INI` 中的 `PSEG_MGR_FLAG` 参数名查看此参数的设置值，还可以通过使用系统函数获取此参数的设置值：`select SF_GET_PARA_VALUE(2,'PSEG_MGR_FLAG');`。
