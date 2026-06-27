@@ -1,0 +1,347 @@
+[
+  {
+    "type": "file",
+    "name": "userid",
+    "label": "USERID"
+  },
+  {
+    "type": "file",
+    "name": "control",
+    "label": "CONTROL"
+  },
+  {
+    "type": "file",
+    "name": "log",
+    "label": "LOG"
+  },
+  {
+    "type": "file",
+    "name": "null_str",
+    "label": "NULL_STR"
+  },
+  {
+    "type": "file",
+    "name": "badfile",
+    "label": "BADFILE"
+  },
+  {
+    "type": "file",
+    "name": "skip",
+    "label": "SKIP"
+  },
+  {
+    "type": "file",
+    "name": "load",
+    "label": "LOAD"
+  },
+  {
+    "type": "file",
+    "name": "rows",
+    "label": "ROWS"
+  },
+  {
+    "type": "file",
+    "name": "direct",
+    "label": "DIRECT"
+  },
+  {
+    "type": "file",
+    "name": "set_identity",
+    "label": "SET_IDENTITY"
+  },
+  {
+    "type": "file",
+    "name": "sorted",
+    "label": "SORTED"
+  },
+  {
+    "type": "file",
+    "name": "index_option",
+    "label": "INDEX_OPTION"
+  },
+  {
+    "type": "file",
+    "name": "errors",
+    "label": "ERRORS"
+  },
+  {
+    "type": "file",
+    "name": "character_code",
+    "label": "CHARACTER_CODE"
+  },
+  {
+    "type": "file",
+    "name": "mode",
+    "label": "MODE"
+  },
+  {
+    "type": "file",
+    "name": "client_lob",
+    "label": "CLIENT_LOB"
+  },
+  {
+    "type": "file",
+    "name": "lob_directory",
+    "label": "LOB_DIRECTORY"
+  },
+  {
+    "type": "file",
+    "name": "lob_file_name",
+    "label": "LOB_FILE_NAME"
+  },
+  {
+    "type": "file",
+    "name": "blob_type",
+    "label": "BLOB_TYPE"
+  },
+  {
+    "type": "file",
+    "name": "buffer_node_size",
+    "label": "BUFFER_NODE_SIZE"
+  },
+  {
+    "type": "file",
+    "name": "log_size",
+    "label": "LOG_SIZE"
+  },
+  {
+    "type": "file",
+    "name": "read_rows",
+    "label": "READ_ROWS"
+  },
+  {
+    "type": "file",
+    "name": "null_mode",
+    "label": "NULL_MODE"
+  },
+  {
+    "type": "file",
+    "name": "send_node_number",
+    "label": "SEND_NODE_NUMBER"
+  },
+  {
+    "type": "file",
+    "name": "task_thread_number",
+    "label": "TASK_THREAD_NUMBER"
+  },
+  {
+    "type": "file",
+    "name": "bldr_num",
+    "label": "BLDR_NUM"
+  },
+  {
+    "type": "file",
+    "name": "bdta_size",
+    "label": "BDTA_SIZE"
+  },
+  {
+    "type": "file",
+    "name": "compress_flag",
+    "label": "COMPRESS_FLAG"
+  },
+  {
+    "type": "file",
+    "name": "mpp_client",
+    "label": "MPP_CLIENT"
+  },
+  {
+    "type": "file",
+    "name": "single_file",
+    "label": "SINGLE_FILE"
+  },
+  {
+    "type": "file",
+    "name": "lan_mode",
+    "label": "LAN_MODE"
+  },
+  {
+    "type": "file",
+    "name": "unrep_char_mode",
+    "label": "UNREP_CHAR_MODE"
+  },
+  {
+    "type": "file",
+    "name": "silent",
+    "label": "SILENT"
+  },
+  {
+    "type": "file",
+    "name": "oci_directory",
+    "label": "OCI_DIRECTORY"
+  },
+  {
+    "type": "file",
+    "name": "data",
+    "label": "DATA"
+  },
+  {
+    "type": "file",
+    "name": "enable_class_type",
+    "label": "ENABLE_CLASS_TYPE"
+  },
+  {
+    "type": "file",
+    "name": "flush_flag",
+    "label": "FLUSH_FLAG"
+  },
+  {
+    "type": "file",
+    "name": "single_hldr_hp",
+    "label": "SINGLE_HLDR_HP"
+  },
+  {
+    "type": "file",
+    "name": "ignore_batch_errors",
+    "label": "IGNORE_BATCH_ERRORS"
+  },
+  {
+    "type": "file",
+    "name": "ep",
+    "label": "EP"
+  },
+  {
+    "type": "file",
+    "name": "parallel",
+    "label": "PARALLEL"
+  },
+  {
+    "type": "file",
+    "name": "sql",
+    "label": "SQL"
+  },
+  {
+    "type": "file",
+    "name": "sqlfile",
+    "label": "SQLFILE"
+  },
+  {
+    "type": "file",
+    "name": "table",
+    "label": "TABLE"
+  },
+  {
+    "type": "file",
+    "name": "row_seperator",
+    "label": "ROW_SEPERATOR"
+  },
+  {
+    "type": "file",
+    "name": "field_seperator",
+    "label": "FIELD_SEPERATOR"
+  },
+  {
+    "type": "file",
+    "name": "commit_option",
+    "label": "COMMIT_OPTION"
+  },
+  {
+    "type": "file",
+    "name": "append_option",
+    "label": "APPEND_OPTION"
+  },
+  {
+    "type": "file",
+    "name": "colname_heading",
+    "label": "COLNAME_HEADING"
+  },
+  {
+    "type": "file",
+    "name": "ignore_aimless_data",
+    "label": "IGNORE_AIMLESS_DATA"
+  },
+  {
+    "type": "file",
+    "name": "lob_as_varchar",
+    "label": "LOB_AS_VARCHAR"
+  },
+  {
+    "type": "file",
+    "name": "lob_as_varchar_size",
+    "label": "LOB_AS_VARCHAR_SIZE"
+  },
+  {
+    "type": "file",
+    "name": "log_level",
+    "label": "LOG_LEVEL"
+  },
+  {
+    "type": "file",
+    "name": "fldr_ini",
+    "label": "FLDR_INI"
+  },
+  {
+    "type": "file",
+    "name": "reconn",
+    "label": "RECONN"
+  },
+  {
+    "type": "file",
+    "name": "reconn_time",
+    "label": "RECONN_TIME"
+  },
+  {
+    "type": "file",
+    "name": "width",
+    "label": "WIDTH"
+  },
+  {
+    "type": "file",
+    "name": "export_mode",
+    "label": "EXPORT_MODE"
+  },
+  {
+    "type": "file",
+    "name": "bad_file_mode",
+    "label": "BAD_FILE_MODE"
+  },
+  {
+    "type": "file",
+    "name": "compatible_mode",
+    "label": "COMPATIBLE_MODE"
+  },
+  {
+    "type": "file",
+    "name": "priority_enclose",
+    "label": "PRIORITY_ENCLOSE"
+  },
+  {
+    "type": "file",
+    "name": "out_file_rows",
+    "label": "OUT_FILE_ROWS"
+  },
+  {
+    "type": "file",
+    "name": "out_file_size",
+    "label": "OUT_FILE_SIZE"
+  },
+  {
+    "type": "file",
+    "name": "float_fmt",
+    "label": "FLOAT_FMT"
+  },
+  {
+    "type": "file",
+    "name": "nodata_col_flag",
+    "label": "NODATA_COL_FLAG"
+  },
+  {
+    "type": "file",
+    "name": "help",
+    "label": "HELP"
+  },
+  {
+    "type": "file",
+    "name": "dmldrc_server",
+    "label": "SERVER（dmldrc）"
+  },
+  {
+    "type": "file",
+    "name": "dmldrc_reconn",
+    "label": "RECONN（dmldrc）"
+  },
+  {
+    "type": "file",
+    "name": "dmldrc_plog",
+    "label": "PLOG（dmldrc）"
+  }
+]

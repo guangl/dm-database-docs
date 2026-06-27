@@ -1,0 +1,47 @@
+[
+  {
+    "type": "file",
+    "name": "introduction",
+    "label": "功能简介"
+  },
+  {
+    "type": "section-header",
+    "label": "dmfldr"
+  },
+  {
+    "type": "file",
+    "name": "getting-started-dmfldr",
+    "label": "dmfldr 入门"
+  },
+  {
+    "type": "file",
+    "name": "actual-combat-dmfldr",
+    "label": "dmfldr 实战"
+  },
+  {
+    "type": "section-header",
+    "label": "dmldrp 和 dmldrc"
+  },
+  {
+    "type": "file",
+    "name": "dmldrp-dmldrc-introduction",
+    "label": "dmldrp 和 dmldrc 入门"
+  },
+  {
+    "type": "file",
+    "name": "dmldrp-dmldrc-draft",
+    "label": "dmldrp 和 dmldrc 实战"
+  },
+  {
+    "type": "section-header",
+    "label": "参数"
+  },
+  {
+    "type": "dir",
+    "name": "parameters",
+    "label": "查看 dmfldr 参数",
+    "collapsible": true,
+    "collapsed": true,
+    "overviewHeaders": [1]
+  }
+]
